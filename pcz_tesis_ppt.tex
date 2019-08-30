@@ -34,7 +34,7 @@
   	 Evaluador Externo:& Ph.D. Ricardo Muñoz Magnino \\
   \end{tabular}
  }
-\date{Agosto, 2019}
+\date{\footnotesize Agosto, 2019}
 \AtBeginSubsection[]
 {
   \begin{frame}<beamer>{Outline}
@@ -181,9 +181,10 @@
 
 \begin{frame}{Estado del Arte}{Turbulencia Atmosférica y Terreno Complejo}
 	\begin{itemize}
-		\item aaa
-		\item bbb
-		\item ccc
+		\item Modelos Lineales (Jackson y Hunt 1975, Mason y Sykes 1979)
+		\item No lineales: 2D (Taylor 1977), RANS (Launder y Spalding 1974)
+		\item LES: Desde los 90s se viene desarrollando para la CLP.
+		\item Simulaciones Askeverin (2009) y cerros sinusoidales (2001).
 	\end{itemize}
 \end{frame}
 
@@ -191,6 +192,13 @@
 	\begin{itemize}
 		\item Aspectos Computacionales.
 		\item Aspectos Numéricos.
+		\begin{itemize}
+			\item Precisión
+			\item Estabilidad
+			\item Difusión Numérica
+			\item Coordenadas
+			\item Benchmarking
+		\end{itemize}
 		\item Parametrización de CLP.
 		\item Inicialización y Datos de Entrada.
 	\end{itemize}
@@ -199,6 +207,7 @@
 \begin{frame}{Estado del Arte}{Alta Resolución y Terreno Complejo}
 	\begin{figure}[h!]
 		\centering
+		\vspace{0.2cm}
 		\includegraphics[width=0.75\linewidth,trim={2.6cm 13.5cm 9.2cm 9cm},clip]{fig/02/coordinates}
 		\caption{Comparación entre las coordenadas usuales sigma (arriba) y el método de frontera inmersa (abajo). Fuente: Arnold et al. (2010).}
 	\end{figure}
@@ -208,13 +217,24 @@
 	\begin{itemize}
 		\item Aspectos Computacionales.
 		\item Aspectos Numéricos.
+		\begin{itemize}
+			\item Precisión
+			\item Estabilidad
+			\item Difusión Numérica
+			\item Coordenadas
+			\item Benchmarking
+		\end{itemize}
 		\item Parametrización de CLP.
 		\item Inicialización y Datos de Entrada.
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Estado del Arte}{Contexto de la Asimilación de Datos}
-	
+	\begin{itemize}
+		\item aaa
+		\item bbb
+		\item ccc
+	\end{itemize}
 \end{frame}
 
 
@@ -228,10 +248,64 @@
 
 
 
-
+%MARCO TEÓRICO
 \section{4. Marco Teórico}
 \begin{frame}{Marco Teórico}
+	\begin{enumerate}[a.]
+		\item Leyes fundamentales de un Fluido.
+		\item Ecuaciones que rigen la Dinámica Atmosférica.
+		\item Turbulencia.
+		\item Fundamentos de Capa Límite Atmosférica.
+		\item Simulación de Grandes Vórtices.
+		\item Asimilación de Datos.
+	\end{enumerate}
 \end{frame}
+
+\section{4. Marco Teórico}
+\begin{frame}{Marco Teórico}{Leyes Fundamentales de un Fluido}
+	Conservación de Masa:
+	\be \partial_t \rho + \partial_i(\rho u_i) = 0 \ee
+	Conservación de Momentum:
+	\be \rho d_t u_i = \rho g_i + \partial_j\sigma_{ij} \ee
+	Conservación de Energía:
+	\be \rho d_t\left( e+ K \right) = u_i\rho g_i + \partial_j(u_i \sigma_{ij}) - \partial_j q_i \ee
+	Ecuación de Estado:
+	\be p = f(\rho,T) \ee
+\end{frame}
+
+\section{4. Marco Teórico}
+\begin{frame}{Marco Teórico}{Ecuaciones de Dinámica Atmosférica}
+Ecuaciones Primitivas:
+\small
+	\begin{align}
+	d_t u &= \frac{uv\tan\psi}{a}-\frac{uw}{a}-\frac{1}{\rho}\partial_x p - 2\Omega_e(w\cos\psi - v\sin\psi) + F_{rx}\\
+	d_t v &= -\frac{u^2\tan\psi}{a}-\frac{uw}{a}-\frac{1}{\rho}\partial_y p - 2\Omega_e u\sin\psi + F_{ry}\\
+	d_t w &= \frac{u^2 + v^2}{a}-\frac{1}{\rho}\partial_z p + 2\Omega_e u\cos\psi -g + F_{rz}\\
+	\partial_t T &= -u\partial_x T -v\partial_y T + (\gamma-\gamma_d)w+\frac{1}{C_p}d_t H\\
+	d_t \rho &= -\rho(\partial_i u_i)\\
+	d_t q_v &= Q_v\label{03_eq:humedad}\\
+	p &= \rho R T.
+	\end{align}
+\normalsize
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{5. Modelo WRF}
 \begin{frame}{Modelo WRF}
@@ -239,6 +313,12 @@
 
 \section{6. Metodología}
 \begin{frame}{Metodología}
+	\begin{figure}[h!]
+		\centering
+		%\vspace{0.2cm}
+		\includegraphics[width=1\linewidth,clip]{tesis_experimentos}
+		\caption{Diagrama de experimentos realizados.}
+	\end{figure}
 \end{frame}
 
 \section{7. Resultados}

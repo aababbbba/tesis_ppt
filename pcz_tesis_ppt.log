@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  8 AUG 2019 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  26 AUG 2019 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1472,7 +1472,7 @@ LaTeX Info: Redefining \selectfont on input line 44.
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
  (./pcz_tesis_ppt.nav)
-<utfsm_logo.pdf, id=45, 347.2975pt x 252.945pt>
+<utfsm_logo.pdf, id=53, 347.2975pt x 252.945pt>
 File: utfsm_logo.pdf Graphic file (type pdf)
  <use utfsm_logo.pdf>
 Package pdftex.def Info: utfsm_logo.pdf used on input line 50.
@@ -1492,7 +1492,7 @@ LaTeX Font Info:    Try loading font information for U+zeuex on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-Overfull \vbox (9.56004pt too high) detected at line 50
+Overfull \vbox (7.82672pt too high) detected at line 50
  []
 
 
@@ -1511,7 +1511,7 @@ LaTeX Info: Redefining \% on input line 2.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/01/Anuario-CNE-2018.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<fig/01/Anuario-CNE-2018.pdf, id=77, page=30, 597.50829pt x 768.22408pt>
+<fig/01/Anuario-CNE-2018.pdf, id=90, page=30, 597.50829pt x 768.22408pt>
 File: fig/01/Anuario-CNE-2018.pdf Graphic file (type pdf)
 
 <use fig/01/Anuario-CNE-2018.pdf, page 30>
@@ -1527,7 +1527,7 @@ Package pdftex.def Info: fig/01/Anuario-CNE-2018.pdf, page30 used on input line
  [3
 
  <./fig/01/Anuario-CNE-2018.pdf>]
-<fig/02/escalas.pdf, id=196, 364.19562pt x 273.14648pt>
+<fig/02/escalas.pdf, id=208, 364.19562pt x 273.14648pt>
 File: fig/02/escalas.pdf Graphic file (type pdf)
 
 <use fig/02/escalas.pdf>
@@ -1542,7 +1542,7 @@ Overfull \vbox (4.5018pt too high) detected at line 75
  <./fig/02/escalas.pdf>] [5
 
 ]
-<fig/01/explo.png, id=309, 1445.4pt x 1674.255pt>
+<fig/01/explo.png, id=322, 1445.4pt x 1674.255pt>
 File: fig/01/explo.png Graphic file (type png)
  <use fig/01/explo.png>
 Package pdftex.def Info: fig/01/explo.png used on input line 94.
@@ -1554,7 +1554,7 @@ Overfull \vbox (1.00494pt too high) detected at line 94
 [6
 
  <./fig/01/explo.png>]
-<fig/01/descrp.pdf, id=319, page=5, 614.295pt x 794.97pt>
+<fig/01/descrp.pdf, id=331, page=5, 614.295pt x 794.97pt>
 File: fig/01/descrp.pdf Graphic file (type pdf)
 
 <use fig/01/descrp.pdf, page 5>
@@ -1566,7 +1566,7 @@ Package pdftex.def Info: fig/01/descrp.pdf, page5 used on input line 109.
 (pdftex.def)             Requested size: 138.2795pt x 70.61327pt.
  [7
 
- <./fig/01/descrp.pdf>] <fig/01/descrp.pdf, id=352, page=3, 614.295pt x 794.97p
+ <./fig/01/descrp.pdf>] <fig/01/descrp.pdf, id=364, page=3, 614.295pt x 794.97p
 t>
 File: fig/01/descrp.pdf Graphic file (type pdf)
 
@@ -1574,7 +1574,7 @@ File: fig/01/descrp.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/01/descrp.pdf, page3 used on input line 133.
 (pdftex.def)             Requested size: 138.2795pt x 89.97527pt.
 
-<fig/01/prototipo.jpg, id=354, 542.025pt x 722.7pt>
+<fig/01/prototipo.jpg, id=366, 542.025pt x 722.7pt>
 File: fig/01/prototipo.jpg Graphic file (type jpg)
  <use fig/01/prototipo.jpg>
 Package pdftex.def Info: fig/01/prototipo.jpg used on input line 133.
@@ -1598,7 +1598,7 @@ Overfull \vbox (4.5018pt too high) detected at line 162
 
 [11
 
-] <fig/02/grid.pdf, id=407, 364.1906pt x 273.1505pt>
+] <fig/02/grid.pdf, id=419, 364.1906pt x 273.1505pt>
 File: fig/02/grid.pdf Graphic file (type pdf)
  <use fig/02/grid.pdf>
 Package pdftex.def Info: fig/02/grid.pdf used on input line 171.
@@ -1610,7 +1610,7 @@ Package pdftex.def Info: fig/02/grid.pdf used on input line 171.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/02/terra_inc.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<fig/02/terra_inc.pdf, id=438, 498.73427pt x 679.69835pt>
+<fig/02/terra_inc.pdf, id=450, 498.73427pt x 679.69835pt>
 File: fig/02/terra_inc.pdf Graphic file (type pdf)
 
 <use fig/02/terra_inc.pdf>
@@ -1627,14 +1627,14 @@ Overfull \vbox (12.3236pt too high) detected at line 180
 ] [15
 
 ]
-<fig/02/coordinates.pdf, id=507, 597.45204pt x 845.1575pt>
+<fig/02/coordinates.pdf, id=519, 597.45204pt x 845.1575pt>
 File: fig/02/coordinates.pdf Graphic file (type pdf)
 
 <use fig/02/coordinates.pdf>
-Package pdftex.def Info: fig/02/coordinates.pdf used on input line 205.
+Package pdftex.def Info: fig/02/coordinates.pdf used on input line 214.
 (pdftex.def)             Requested size: 230.46739pt x 180.50284pt.
 
-Overfull \vbox (7.72972pt too high) detected at line 205
+Overfull \vbox (13.42018pt too high) detected at line 214
  []
 
 [16
@@ -1651,22 +1651,37 @@ Overfull \vbox (7.72972pt too high) detected at line 205
 
 ] [22
 
-] [23
+]
+<tesis_experimentos.pdf, id=572, 434.58359pt x 189.8292pt>
+File: tesis_experimentos.pdf Graphic file (type pdf)
 
-] [24
+<use tesis_experimentos.pdf>
+Package pdftex.def Info: tesis_experimentos.pdf used on input line 322.
+(pdftex.def)             Requested size: 307.28987pt x 134.23221pt.
+ [23
+
+ <./tesis_experimentos.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./tesis_experimentos.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] [24
+
+] [25
+
+] [26
 
 ]
 File: utfsm_logo.pdf Graphic file (type pdf)
-
-<use utfsm_logo.pdf>
-Package pdftex.def Info: utfsm_logo.pdf used on input line 261.
+ <use utfsm_logo.pdf>
+Package pdftex.def Info: utfsm_logo.pdf used on input line 341.
 (pdftex.def)             Requested size: 58.59465pt x 42.67912pt.
 
-Overfull \vbox (9.56004pt too high) detected at line 261
+Overfull \vbox (7.82672pt too high) detected at line 341
  []
 
-Package atenddvi Info: Last page = 25.
-[25
+Package atenddvi Info: Last page = 27.
+[27
 
 ]
 \tf@nav=\write6
@@ -1678,29 +1693,29 @@ Package atenddvi Info: Last page = 25.
 \tf@snm=\write8
 \openout8 = `pcz_tesis_ppt.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 343.
  (./pcz_tesis_ppt.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
 Package rerunfilecheck Info: File `pcz_tesis_ppt.out' has not changed.
-(rerunfilecheck)             Checksum: 36765E4EF27A3DC114F0652DE7426326;418.
+(rerunfilecheck)             Checksum: 82666490D554F18CC5C8259E7ECE0342;528.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
  ) 
 Here is how much of TeX's memory you used:
- 26649 strings out of 493029
- 506470 string characters out of 6136233
- 574234 words of memory out of 5000000
- 29615 multiletter control sequences out of 15000+600000
- 11734 words of font info for 43 fonts, out of 8000000 for 9000
+ 26748 strings out of 493029
+ 508337 string characters out of 6136233
+ 579280 words of memory out of 5000000
+ 29689 multiletter control sequences out of 15000+600000
+ 19481 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,11n,51p,10416b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
@@ -1708,11 +1723,14 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on pcz_tesis_ppt.pdf (25 pages, 3512838 bytes).
+/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msam7.pfb>
+Output written on pcz_tesis_ppt.pdf (27 pages, 3563380 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
- 64 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 651 PDF objects out of 1000 (max. 8388607)
+ 475 compressed objects within 5 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
