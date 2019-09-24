@@ -1,4 +1,4 @@
-\documentclass[mathserif]{beamer}
+\documentclass[mathserif,10pt]{beamer}
 \newcommand{\be}{\begin{equation}}
 \newcommand{\ee}{\end{equation}}
 \newcommand{\bce}{\begin{center}}
@@ -14,6 +14,7 @@
 \usepackage{eulervm}
 \apptocmd{\frame}{}{\justifying}{}
 \usepackage[activeacute,spanish]{babel}
+\renewcommand\spanishtablename{Tabla}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{caption}[numbered]
 \usetheme{default}
@@ -21,11 +22,11 @@
 \definecolor{cobalt}{rgb}{0.0, 0.28, 0.67}
 \usecolortheme[named=cobalt]{structure}
 \setbeamercolor{alerted text}{fg=blue}
-\title{Simulación Multiescala de Viento Sobre Terreno Complejo Mediante el Método Embedido WRF-LES y Asimilación Variacional de Datos 4D}
+\title{Simulación Multiescala de Viento Sobre Terreno Complejo Mediante el Método Embebido WRF-LES y Asimilación Variacional de Datos 4D}
 \author{Pablo Andrés Cárdenas Zamorano}
 \institute[Universidad Técnica Federico Santa María]
 {%
-  Magíster en Ciencias de la Ingeniería Mecánica,\\
+  Magíster en Ciencias de la Ingeniería Mecánica\\
   Universidad Técnica Federico Santa María\\
   \bigskip
   \begin{tabular}{ll}
@@ -41,6 +42,7 @@
     \tableofcontents[currentsection,currentsubsection]
   \end{frame}
 }
+ 
 \begin{document}
 \begin{frame}
 	\vspace{0.3cm}
@@ -49,9 +51,14 @@
 	\titlepage
 \end{frame}
 
-\begin{frame}{Contenidos}
-	\tableofcontents
-\end{frame}
+%\begin{frame}{Contenidos}
+%	%\begin{minipage}{0.5\linewidth}
+%		\tableofcontents
+%	%\end{minipage}%
+%	%\begin{minipage}{0.5\linewidth}
+%		%\tableofcontents
+%	%\end{minipage}%%
+%\end{frame}
 
 \section{1. Motivación}
 \begin{frame}{Motivación}{¿Por qué Predecir el Viento?}
@@ -81,6 +88,13 @@
 		\item Correcta representación de la CLP (PBL).
 		\item Turbulencia y Terreno Complejo.
 	\end{enumerate}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth,trim={0cm 2.5cm 0cm 0cm},clip]{fig/abl-color}
+		\vspace{-4mm}
+		\caption{Esquema de la capa ĺímite planetaria. Fuente: Stull (2018).}
+		\label{fig:01_abl}
+	\end{figure}
 \end{frame}
 
 \begin{frame}{Motivación}{¿Cómo Predecirlo?}
@@ -231,9 +245,14 @@
 
 \begin{frame}{Estado del Arte}{Contexto de la Asimilación de Datos}
 	\begin{itemize}
-		\item aaa
-		\item bbb
-		\item ccc
+		\item Busca obtener una mejor solución mediante la combinación de observaciones con los resultados de un modelo.
+		\item Es satisfactorio para los casos de escalas planetarias y sinópticas.
+		\item Para la Capa Límite Planetaria (CLP) se tienen 3 casos:
+		\begin{enumerate}[a.]
+			\item DA en CLP para mesoescala: Mejoras de hasta un 30\% en el error.\footnote{Cheng et al. (2017) y Dumais et al. (2013)}
+			\item DA con datos superficiales: Mejoras en los resultados debido al cálculo de flujos turbulentos. No para terreno complejo.
+			\item DA en CLP para microescala: No existe literatura.
+		\end{enumerate}
 	\end{itemize}
 \end{frame}
 
@@ -261,7 +280,6 @@
 	\end{enumerate}
 \end{frame}
 
-\section{4. Marco Teórico}
 \begin{frame}{Marco Teórico}{Leyes Fundamentales de un Fluido}
 	Conservación de Masa:
 	\be \partial_t \rho + \partial_i(\rho u_i) = 0 \ee
@@ -272,8 +290,7 @@
 	Ecuación de Estado:
 	\be p = f(\rho,T) \ee
 \end{frame}
-
-\section{4. Marco Teórico}
+%
 \begin{frame}{Marco Teórico}{Ecuaciones de Dinámica Atmosférica}
 Ecuaciones Primitivas:
 \small
@@ -306,11 +323,21 @@ Ecuaciones Primitivas:
 
 
 
-
+%WRF
 \section{5. Modelo WRF}
 \begin{frame}{Modelo WRF}
 \end{frame}
 
+
+
+
+
+
+
+
+
+
+%METODOLOGIA
 \section{6. Metodología}
 \begin{frame}{Metodología}
 	\begin{figure}[h!]
@@ -320,18 +347,1096 @@ Ecuaciones Primitivas:
 		\caption{Diagrama de experimentos realizados.}
 	\end{figure}
 \end{frame}
-
-\section{7. Resultados}
-\begin{frame}{Resultados}
+%HOVSORE
+\begin{frame}{Metodología}{Selección de Dominios: Caso I Høvsøre}
+	 \begin{figure}[H]
+	 	\centering\frame{
+	 		\includegraphics[width=0.98\linewidth,page=1,trim={0cm 0cm 0cm 0cm},clip]{fig/05/hovsore}}%
+	 	\caption{Fotografía del terreno en Høvsøre. Fuente: Peña et al.(2013)}
+	 	\label{fig:05_terreno_hovsore}
+	 \end{figure}
 \end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso I Høvsøre}
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}{0.5\linewidth}
+			\center(a)
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\center(b)
+		\end{minipage}%
+		
+		\frame{\includegraphics[width=0.45\linewidth,trim={0cm 0cm -0cm 0cm},clip]{fig/05/hov_dom1_edit.jpg}}\hspace{0.5cm}%
+		\frame{\includegraphics[width=0.45\linewidth,trim={0cm 0cm 0cm 0cm},clip]{fig/05/hov_dom2_edit.jpg}}\vspace{0.3cm}%
+		
+		\caption{Información de los dominios de simulación para el caso Høvsøre. (a) Dominios d01-d04. (b) Dominios d05-d07.}
+		\label{fig:05_dom_hov_a}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso I Høvsøre}
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}{0.5\linewidth}
+			\center \hspace{1.5cm}(c)
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\center(d)
+		\end{minipage}%
+		
+		\includegraphics[width=0.45\linewidth,trim={2.5cm 6.5cm 2cm 3.5cm},clip]{fig/05/hov_control_point.pdf}%
+		\includegraphics[width=0.45\linewidth,trim={0.5cm 0cm 0cm -1.3cm},clip]{fig/05/mesh57}%
+		
+		\caption{Información de los dominios de simulación para el caso Høvsøre. (c) Dominio d07 con el punto de control. (d) Distribución vertical de la malla adaptativa en escala 4:1.}
+		\label{fig:05_dom_hov_b}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso I Høvsøre}
+	\begin{table}[h!]
+		\caption{Dominio numérico espacial y temporal para simulación del caso Høvsøre.}\label{tab:05_config_hov}
+		\centering\footnotesize
+		\begin{tabular}{lcc}
+			\toprule
+			Parámetro & Selección \\
+			\midrule
+			Fecha	 	 & 2010-09-08   \\
+			Hora Inicio	 	 & 06:00:00   UTC \\
+			Hora Término	 		 & 20:00:00 UTC  \\
+			Puntos Malla Vert.	 	 & 37   \\
+			$P_{top}$ 	& 30000 [Pa]\\
+			\# Dominios	& 7   \\
+			Lat. Centro	& 56.440588   \\
+			Lon. Centro	& 8.150896   \\
+			Interválo Salida & 10 [min]\\
+			Punto de Malla Total & 2,831,472\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso I Høvsøre}
+	\vspace{-3mm}
+	\begin{table}[h!]
+	\caption{Valores característicos de cada dominio en Høvsøre.}\label{tab:05_caract_hov}
+	\vspace{-4mm}
+	\centering\scriptsize\resizebox{\textwidth}{!}{
+		\begin{tabular}{lccccccc}
+			\toprule
+			Dominio 				& d01	&	d02	&	d03	&	d04	&	d05	&	d06 &	d07 \\
+			\midrule
+			$N_x$		& 107 & 107 & 107 &107&107&107&107  \\
+			$N_y$	 		& 107 & 107 & 107 &107&107&107&107  \\
+			$\Delta x, y$	[m]	 		& 30000 & 10000 & 3333.3 &1111.1&222.22&74.074&24.691  \\
+			$\Delta t$	[s]	 		& 75 & 25 & 8.333 &2.778&0.556&0.185&0.062  \\
+			Orografía		 	& GMTED & GMTED & GMTED &ASTER&ASTER&ASTER&ASTER  \\
+			Uso de Suelo		& USGS & USGS & USGS &CLC12&CLC12&CLC12&CLC12 \\
+			\bottomrule
+		\end{tabular}}
+	\end{table}
+	\vspace{-3mm}
+	\begin{table}[h!]
+		\caption{Parametrizaciones físicas utilizadas en el modelo para Høvsøre.}\label{tab:05_param_hov}
+		\vspace{-4mm}
+		\centering\scriptsize\resizebox{\textwidth}{!}{
+			\begin{tabular}{lccccccc}
+				\toprule
+				Dominio 				& d01	&	d02	&	d03	&	d04	&	d05	&	d06 &	d07 \\
+				\midrule
+				Micro-físicas		 	& WSM5 & WSM5 & WSM5 &WSM5&WSM5&WSM5&WSM5  \\
+				Cúmulos			 		& Grell & Grell & -- & -- & -- & -- & -- \\ 
+				Capa Superficial	 	& MYNN & MYNN & MYNN & MYNN & MYNN & MYNN & MYNN \\
+				PBL				 		& MYNN & MYNN & MYNN & MYNN & -- & -- & -- \\
+				Modelo LES				 		& -- & -- & -- & -- & 1.5TKE & 1.5TKE & 1.5TKE \\
+				$c_k$				 		& -- & -- & -- & -- & 0.3 & 0.3 & 0.3 \\
+				Modelo de Suelo 		& Difus. & Difus. & Difus. & Difus. & Difus. & Difus. & Difus. \\
+				Rad. Onda Larga	& RRTM &RRTM&RRTM&RRTM&RRTM&RRTM&RRTM \\
+				Rad. Onda Corta	& Dudhia &Dudhia&Dudhia&Dudhia&Dudhia&Dudhia&Dudhia \\
+				\bottomrule
+			\end{tabular}}
+		\end{table}
+\end{frame}
+
+%BOLUND
+\begin{frame}{Metodología}{Selección de Dominios: Caso II Bolund}
+	\begin{figure}[H]
+		\centering\frame{
+			\includegraphics[width=0.8\linewidth,page=1,trim={0cm 0cm 0cm 0cm},clip]{fig/05/bolund}}%
+		\caption{Fotografías de la colina de Bolund. Fuente: Chaudhari (2014)}
+		\label{fig:05_terreno_bolund}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso II Bolund}
+	\begin{figure}[H]
+		\centering
+		\frame{\includegraphics[width=0.48\linewidth,page=1,trim={5mm 3mm 3mm 3mm},clip]{fig/05/bol_d1-2-3-4edit.jpg}}
+		\frame{\includegraphics[width=0.48\linewidth,page=1,trim={5mm 3mm 3mm 3mm},clip]{fig/05/bol_d6-7-8edit.jpg}}
+		
+		%\bigskip
+		%\includegraphics[width=0.48\linewidth,page=1,trim={5mm 3mm 3mm 3mm},clip,frame]{fig/05/bol_d6-7-8edit.jpg}%
+		
+		\caption{Distribución telescópica de las 8 mallas anidadas en el dominio numérico de la colinda Bolund.}
+		\label{fig:05_dom_bol}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso II Bolund}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth,page=1,trim={0cm 6cm -1cm 4cm},clip]{fig/05/bol_control_point.pdf}%
+		\vspace{-2mm}
+		\caption{Ubicación espacial de los puntos de control en el dominio de Bolund. En cada punto de control se ubican anemómetros que miden a las alturas de 2m, 5m, y 9m sobre el suelo.}
+		\label{fig:05_d08_bol}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso II Bolund}
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}{0.5\linewidth}
+			\center\hspace{1.2cm}(a)
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\center(b)
+		\end{minipage}%
+		
+		\includegraphics[width=0.45\linewidth,trim={0cm 0cm -0cm 0cm},clip]{fig/05/mesh_y50}%
+		\includegraphics[width=0.45\linewidth,trim={0cm 0cm 0cm 0cm},clip]{fig/05/hd_mesh_50}%
+		
+		\caption{(a) Distribución de la malla vertical en la mitad del dominio en Bolund. (b) Detalle la pendiente abrupta (escala 1:1).}
+		\label{fig:05_mesh_bol}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso II Bolund}
+	\begin{table}[h!]
+		\caption{Dominio numérico espacial y temporal para simulación del caso Bolund.}\label{tab:05_config_bol}
+		\centering\footnotesize
+		\begin{tabular}{lcc}
+			\toprule
+			Parámetro & Selección \\
+			\midrule
+			Fecha	 	 & 29-12-2007   \\
+			Hora Inicio	 	 & 06:00 UTM\\
+			Hora Término	 		 & 15:00 UTM\\
+			Puntos Malla Vert.	 	 & 41   \\
+			$P_{top}$ 	& 30000 [Pa]\\
+			\# Dominios	& 8   \\
+			Lat. Centro	& 55.703474   \\
+			Lon. Centro	& 12.098854   \\
+			Interválo Salida & 5 [min]\\
+			Punto de Malla Total & 3,465,000\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración: Caso II Bolund}
+	\vspace{-4mm}
+	\begin{table}[h!]
+		\caption{Valores característicos de cada dominio en Bolund.}\label{tab:05_caract_bol}
+		\vspace{-5mm}
+		\centering\footnotesize\resizebox{\textwidth}{!}{
+			\begin{tabular}{lcccccccc}
+				\toprule
+				Dominio 				& d01	&	d02	&	d03	&	d04	&	d05	&	d06 &	d07&	d08 \\
+				\midrule
+				$N_x$		& 106 & 106 & 106 &106&106&106&106&106  \\
+				$N_y$	 		& 106 & 106 & 106 &106&106&106&106&91  \\
+				$\Delta x, y$	[m]	 		& 10000 & 3333.3 & 1111.1 &222.22&74.074&24.691&8.23045&2.74348  \\
+				$\Delta t$	[s]	 		& 12 & 4 & 1.3333 &0.4444&0.0889&0.0296&0.0099&0.0033  \\
+				Orografía		 	& GMTED & GMTED & GMTED &ASTER&ASTER&ASTER&ASTER&Bolund  \\
+				Uso de Suelo		& USGS & USGS & USGS &CLC12&CLC12&CLC12&CLC12&Bolund \\
+				\bottomrule
+			\end{tabular}}
+	\end{table}
+	\vspace{-4mm}
+	\begin{table}[h!]
+		\caption{Parametrizaciones físicas utilizadas en el modelo para Bolund.}\label{tab:05_param_bol}
+		\vspace{-5mm}
+		\centering\footnotesize\resizebox{\textwidth}{!}{
+		\begin{tabular}{lcccccccc}
+			\toprule
+			Dominio 				& d01	&	d02	&	d03	&	d04	&	d05	&	d06 &	d07& d08\\
+			\midrule
+			Micro-físicas		 	& WSM5 & WSM5 & WSM5 &WSM5&WSM5&WSM5&WSM5& WSM5 \\
+			Cúmulos			 		& Grell & -- & -- & -- & -- & -- & -- & -- \\ 
+			Capa Superficial	 	& MYNN & MYNN & MYNN & MYNN & MYNN & MYNN & MYNN& MYNN\\
+			PBL				 		& MYNN & MYNN & MYNN & -- & -- & -- & -- &--\\
+			Modelo LES				 		& -- & -- & -- & 1.5TKE & 1.5TKE & 1.5TKE & 1.5TKE& 1.5TKE \\
+			$c_k$				 		& -- & -- & -- & $0.2$ & $0.2$ & $0.2$ & $0.2$& $0.2$ \\
+			Modelo de Suelo 		& Difus. & Difus. & Difus. & Difus. & Difus. & Difus. & Difus.& Difus. \\
+			Rad. Onda Larga	& RRTM &RRTM&RRTM&RRTM&RRTM&RRTM&RRTM& RRTM\\
+			Rad. Onda Corta	& Dudhia &Dudhia&Dudhia&Dudhia&Dudhia&Dudhia&Dudhia& Dudhia\\
+			\bottomrule
+		\end{tabular}}
+	\end{table}
+\end{frame}	
+
+%DATA ASIMILATION METODOLOGIA
+\begin{frame}{Metodología}{Configuración de la Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.95\linewidth,page=1,trim={0cm 0cm 0cm 0cm},clip]{fig/05/da}%
+		\caption{Esquema del proceso de asimilación de datos.}
+		\label{fig:05_da}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración de la Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}{0.5\linewidth}
+			\center\hspace{0.3cm}(a)
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\center\hspace{0.3cm}(b)
+		\end{minipage}%
+		
+		\includegraphics[width=0.5\linewidth,page=1,trim={2.5cm 6.2cm 1cm 4.5cm},clip]{fig/05/eta1_da_hov}%
+		\includegraphics[width=0.5\linewidth,page=1,trim={1.0cm 5.2cm 1cm 4.5cm},clip]{fig/05/eta1_da_bol}%
+		\caption{Diferencia de la magnitud del campo de velocidad en el primer nivel del modelo entre resultados sin y con asimilación de datos. (a) Caso I puntual. (b) Caso II con varios puntos.}
+		\label{fig:05_da_expl}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Metodología}{Estimación del Error}
+	MAE:
+	\be E_1=\frac{1}{n}\sum_{i=1}^n |y_i-x_i| \ee
+	RMSE:
+	\be E_2=\sqrt{\frac{1}{n}\sum_{i=1}^n (y_i-x_i)^2} \ee
+	Coeficiente de Pearson:
+	\be r =\frac{\sum\limits_{i=1}^n [(x_i-\overline{x})(y_i-\overline{y})]} {\left[\sum\limits_{i=1}^n (x_i-\overline{x})^2\right]^{1/2} \left[\sum\limits_{i=1}^n (y_i-\overline{y})^2\right]^{1/2}} \ee
+\end{frame}
+
+
+
+
+
+
+
+
+%RESULTADOS
+%EXP 1
+\section{7. Resultados}
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\begin{figure}[H]
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0mm},clip]{fig/06/hov/pbl}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0cm},clip]{fig/06/hov/temp_profile}%
+		\end{minipage}%
+		
+		\caption{Perfil de temperatura potencial virtual en Høvsøre.}
+		\label{fig:06_hov_pbl}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\linewidth,page=55,trim={2.5cm 6.2cm 1cm 4.5cm},clip]{fig/06/hov/eta1_V}%
+		\caption{Magnitud de la velocidad en el primer nivel de la coordenada vertical ($z_1=5.25$ [m]) para las 15:00.}
+		\label{fig:06_hov_eta1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.85\linewidth,trim={9mm 63mm 10mm 55mm},clip]{fig/06/hov/ts_v}%
+		
+		\includegraphics[width=0.85\linewidth,trim={12mm 55mm 10mm 55mm},clip]{fig/06/hov/ts_o}%
+		\vspace{-4mm}
+		\caption{Serie de tiempo para la solución caso Høvsøre.}
+		\label{fig:06_hov_ts}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\vspace{-3mm}
+	\begin{figure}[h!]
+		\begin{center}
+			\includegraphics[height=0.6\linewidth,page=37,trim={35mm 10mm 41mm 25mm},clip]{fig/06/hov/9u}%
+			\includegraphics[height=0.6\linewidth,page=37,trim={48mm 10mm 41mm 25mm},clip]{fig/06/hov/9v}%
+			\includegraphics[height=0.6\linewidth,page=37,trim={48mm 10mm 20mm 25mm},clip]{fig/06/hov/9V}%
+		\end{center}
+		\vspace{-3mm}
+		\caption{Validación con Peña et al. (2013). Valores promedios entre las 12:00 y 15:00.}
+		\label{fig:06_hov_pea}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[height=0.5\linewidth,page=1,trim={6mm 5mm 3mm 0mm},clip]{fig/06/hov/mean_data}%
+			\includegraphics[height=0.5\linewidth,page=2,trim={12mm 5mm 3mm 0mm},clip]{fig/06/hov/mean_data}%
+			\includegraphics[height=0.5\linewidth,page=3,trim={12mm 5mm 0mm 0mm},clip]{fig/06/hov/mean_data}%
+		\end{center}
+		\caption{Variables de segundo orden adimensionalizadas. Promedios entre las 12:00 y 15:00 ($u_* = 0.552$ [m/s]). }
+		\label{fig:06_hov_mean_secondorder}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\begin{figure}[H]
+		\centering
+		\hspace*{-5mm}\includegraphics[width=1.1\linewidth,page=1,trim={3mm 5mm -7mm 3mm},clip]{fig/06/hov/spectra}%
+		%\vspace{-3mm}
+		\caption{Espectros de energía cinética para la magnitud horizontal del viento a distintos niveles verticales en el dominio d07 caso Høvsøre.}
+		\label{fig:06_hov_spectrum}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Validación}
+	\[ \boxed{\text{MAE} = 2.41091 \text{ [m/s]} \quad;\quad \text{RMSE} = 2.80142 \text{ [m/s]}} \]
+	\begin{figure}[H]
+		\centering
+		\vspace{-3mm}
+		\includegraphics[width=0.6\linewidth,page=1,trim={0cm 5mm -1cm 0cm},clip]{fig/06/hov/corr}%
+		\vspace{-3mm}
+		\caption{Gráfico de dispersión para las velocidades a distintas alturas en el mástil meteorológico de Høvsøre.}
+		\label{fig:06_corr_hov}
+	\end{figure}
+\end{frame}
+%HOVSORE DATA ASIMILATION
+
+
+
+
+
+
+
+
+
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.85\linewidth,trim={9mm 63mm 10mm 55mm},clip]{fig/06/hov_da/ts_v}%
+		
+		\includegraphics[width=0.85\linewidth,trim={12mm 55mm 10mm 55mm},clip]{fig/06/hov_da/ts_o}%
+		\vspace{-4mm}
+		\caption{Serie de tiempo para la solución caso Høvsøre.}
+		\label{fig:06_hov_da_ts}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Asimilación de Datos}
+	\vspace{-3mm}
+	\begin{figure}[h!]
+		\begin{center}
+			\includegraphics[height=0.6\linewidth,page=37,trim={35mm 10mm 41mm 25mm},clip]{fig/06/hov_da/9u}%
+			\includegraphics[height=0.6\linewidth,page=37,trim={48mm 10mm 41mm 25mm},clip]{fig/06/hov_da/9v}%
+			\includegraphics[height=0.6\linewidth,page=37,trim={48mm 10mm 20mm 25mm},clip]{fig/06/hov_da/9V}%
+		\end{center}
+		\vspace{-3mm}
+		\caption{Validación con Peña et al. (2013). Valores promedios entre las 12:00 y 15:00.}
+		\label{fig:06_hov_da_pea}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[height=0.5\linewidth,page=1,trim={6mm 5mm 3mm 0mm},clip]{fig/06/hov_da/mean_data}%
+			\includegraphics[height=0.5\linewidth,page=2,trim={12mm 5mm 3mm 0mm},clip]{fig/06/hov_da/mean_data}%
+			\includegraphics[height=0.5\linewidth,page=3,trim={12mm 5mm 0mm 0mm},clip]{fig/06/hov_da/mean_data}%
+		\end{center}
+		\caption{Variables de segundo orden adimensionalizadas. Promedios entre las 12:00 y 15:00 ($u_* = 0.527$ [m/s]). }
+		\label{fig:06_hov_da_mean_secondorder}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\hspace*{-5mm}\includegraphics[width=1.1\linewidth,page=1,trim={3mm 5mm -7mm 3mm},clip]{fig/06/hov_da/spectra}%
+		%\vspace{-3mm}
+		\caption{Espectros de energía cinética para la magnitud horizontal del viento a distintos niveles verticales en el dominio d07 caso Høvsøre.}
+		\label{fig:06_hov_da_spectrum}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		%\vspace{-3mm}
+		\includegraphics[width=0.7\linewidth,page=1,trim={0cm 5mm -1cm 0cm},clip]{fig/06/hov_da/corr}%
+		\vspace{-3mm}
+		\caption{Gráfico de dispersión para las velocidades a distintas alturas en el mástil meteorológico de Høvsøre.}
+		\label{fig:06_corr_hov_da}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso I: Høvsøre - Síntesis}
+	\begin{minipage}{0.5\linewidth}
+		Observaciones relevantes:
+		\begin{itemize}
+			\item aaa
+			\item bbb
+			\item ccc
+			\item ddd
+		\end{itemize}
+	\end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+		\begin{table}[H]
+			\caption{Comparación de métricas para el caso I Høvsøre.}
+			\label{tab:06_hov_mae_rmse}
+			\centering%\footnotesize
+			%\resizebox{\textwidth}{!}{
+			\begin{tabular}{lcc}
+				\toprule
+				& Sin DA & Con DA \\
+				\midrule
+				MAE & 2.41 m/s & 2.17 m/s \\
+				RMSE & 2.80 m/s& 2.56 m/s\\
+				$\Delta{RMSE}$& --  & $8.70\%$  \\
+				$\Delta{MAE}$ & -- & $10.47\%$  \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+	\end{minipage}%
+\end{frame}
+
+
+
+
+
+%BOLUND SIN DA
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0mm},clip]{fig/06/bol/mean_pbl}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0cm},clip]{fig/06/bol/mean_profile}%
+		\end{minipage}%
+		
+		\caption{Perfil de temperatura potencial virtual en Bolund.}
+		\label{fig:06_bol_pbl}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.55\linewidth,page=73,trim={12mm 31mm 50mm 20mm},clip]{fig/06/bol/eta1}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.55\linewidth,page=85,trim={37mm 31mm 20mm 20mm},clip]{fig/06/bol/eta1}%
+		\end{minipage}%
+		\vspace{1mm}
+		
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.57\linewidth,page=97,trim={12mm 23mm 50mm 20mm},clip]{fig/06/bol/eta1}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.57\linewidth,page=109,trim={37mm 23mm 20mm 20mm},clip]{fig/06/bol/eta1}%
+		\end{minipage}%
+		\caption{Líneas de flujo para la solución en Bolund en el primer nivel ($z_1 = 1.12$ [m]) para (a) 12:00, (b) 13:00, (c) 14:00 y (d) 15:00.}
+		\label{fig:06_bol_st}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.80\linewidth,trim={0mm 202.0mm 111mm 106mm},clip]{fig/06/bol/1200rot}\\%
+		\includegraphics[width=0.80\linewidth,trim={0mm 202.0mm 111mm 106mm},clip]{fig/06/bol/1300rot}\\%
+		\includegraphics[width=0.80\linewidth,trim={0mm 202.0mm 111mm 106mm},clip]{fig/06/bol/1400rot}\\%
+		\includegraphics[width=0.80\linewidth,trim={0mm 180.0mm 111mm 106mm},clip]{fig/06/bol/1500rot}%
+		\vspace{-2mm}
+		\caption{Contornos de rapidez del viento para la sección de corte vertical a 240$^\circ$ en Bolund. 12:00 a 15:00. Escala 1:1.}
+		\label{fig:06_bol_cross}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund (Aceleración M1-M4)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=1,clip]{fig/06/bol/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=13,clip]{fig/06/bol/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=25,clip]{fig/06/bol/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=37,clip]{fig/06/bol/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={-11mm 193mm 115mm 112mm},clip]{fig/06/bol/cross_height}\\%
+		%\caption{Speedup en los primeros 3 niveles del modelo ($1.1$ [m] azul; $3.4$ [m] verde; $5.6$ [m] amarillo) para la sección de corte a 240$^\circ$ en Bolund. Se muestran los resultados para las 12:00 (arriba), 13:00, 14:00 y 15:00 horas (abajo).}
+		\label{fig:06_bol_speedup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund (Delta TKE)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=1,clip]{fig/06/bol/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=13,clip]{fig/06/bol/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=25,clip]{fig/06/bol/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=37,clip]{fig/06/bol/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={-13.3mm 193mm 115mm 112mm},clip]{fig/06/bol/cross_height}\\%
+		%\caption{Incremento adimensional de energía cinética turbulenta (sgs) en los primeros 3 niveles del modelo ($1.1$ [m] azul; $3.4$ [m] verde; $5.6$ [m] amarillo) para la sección de corte a 240$^\circ$ en Bolund. Se muestran los resultados para las 12:00 (arriba), 13:00, 14:00 y 15:00 horas (abajo).}
+		\label{fig:06_bol_tke}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=0.6\linewidth,page=1,trim={28mm 10mm 25mm 23mm},clip]{fig/06/bol/V_masts}%
+		\includegraphics[height=0.6\linewidth,page=1,trim={30mm 10mm 17mm 20mm},clip]{fig/06/bol/k_masts}%
+		\vspace{-2mm}\caption{Perfil vertical promedio de 12:00 a 15:00 de (a) \emph{speedup} y (b) variación adimensional de energía cinética turbulenta para las estaciones M1 (azul), M2 (naranja), M3 (verde) y M4 (rojo).}
+		\label{fig:06_bol_mast_tke_speedup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=1,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=1,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point1.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M1.}
+		\label{fig:06_bol_ts_m1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=2,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=2,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point2.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M2.}
+		\label{fig:06_bol_ts_m2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=3,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=3,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+	\end{minipage}%
+	\begin{minipage}{0.35\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point3.pdf}%
+	\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M3.}
+		\label{fig:06_bol_ts_m3}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=4,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=4,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+	\end{minipage}%
+	\begin{minipage}{0.35\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point4.pdf}%
+	\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M4.}
+		\label{fig:06_bol_ts_m4}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=5,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=5,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+	\end{minipage}%
+	\begin{minipage}{0.35\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point5.pdf}%
+	\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M5.}
+		\label{fig:06_bol_ts_m5}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=6,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=6,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+	\end{minipage}%
+	\begin{minipage}{0.35\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point6.pdf}%
+	\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M6.}
+		\label{fig:06_bol_ts_m6}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=7,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=7,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+	\end{minipage}%
+	\begin{minipage}{0.35\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point7.pdf}%
+	\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M7.}
+		\label{fig:06_bol_ts_m7}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=8,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=8,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol/ts_interpol_compare_o.pdf}%
+	\end{minipage}%
+	\begin{minipage}{0.35\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point8.pdf}%
+	\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M8.}
+		\label{fig:06_bol_ts_m8}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\begin{minipage}{0.33\linewidth}
+			\centering \hspace{0.5cm}(a)
+		\end{minipage}%
+		\begin{minipage}{0.33\linewidth}
+			\centering \hspace{0.6cm}(b)
+		\end{minipage}%
+		\begin{minipage}{0.33\linewidth}
+			\centering \hspace{0.3cm}(c)
+		\end{minipage}%
+		\vspace{-3mm}
+		\begin{center}
+			\includegraphics[height=0.5\linewidth,page=1,trim={6mm 5mm 3mm 0mm},clip]{fig/06/bol/second_order_mean}%
+			\includegraphics[height=0.5\linewidth,page=2,trim={12mm 5mm 3mm 0mm},clip]{fig/06/bol/second_order_mean}%
+			\includegraphics[height=0.5\linewidth,page=3,trim={12mm 5mm 3mm 0mm},clip]{fig/06/bol/second_order_mean}%
+		\end{center}
+		\vspace{-5mm}
+		\caption{Variables adimensionalizadas de segundo orden para M1-M4 promediadas entre las 12:00 y las 15:00. (a) Energía cinética turbulenta de submalla, (b) Gradiente de velocidad, (c) Esfuerzo turbulento. }
+		\label{fig:06_bol_mean_secondorder}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund}
+	\begin{figure}[H]
+		\centering
+		\hspace*{-5mm}\includegraphics[width=1.1\linewidth,page=1,trim={3mm 5mm -7mm 3mm},clip]{fig/06/bol/spectra}%
+		%\vspace{-3mm}
+		\caption{Espectros de energía cinética para la magnitud horizontal del viento a distintos niveles verticales en el dominio d08 caso Bolund.}
+		\label{fig:06_bol_spectrum}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund (Dispersión)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth,page=1,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		\includegraphics[width=0.4\linewidth,page=2,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		
+		\includegraphics[width=0.4\linewidth,page=3,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		\includegraphics[width=0.4\linewidth,page=4,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		%\caption{Gráfico de dispersión para las velocidades a distintas alturas en los mástiles M1-M4 en Bolund.}
+		\label{fig:06_corr_bol1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund (Dispersión)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth,page=5,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		\includegraphics[width=0.4\linewidth,page=6,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		
+		\includegraphics[width=0.4\linewidth,page=7,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		\includegraphics[width=0.4\linewidth,page=8,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol/corr}%
+		%\caption{Gráfico de dispersión para las velocidades a distintas alturas en los mástiles M5-M8 en Bolund.}
+		\label{fig:06_corr_bol2}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%BOLUND DA RESUTADOS
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0mm},clip]{fig/06/bol_da/mean_pbl}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0cm},clip]{fig/06/bol_da/mean_profile}%
+		\end{minipage}%
+		
+		\caption{Perfil de temperatura potencial virtual en Bolund con DA.}
+		\label{fig:06_bol_da_pbl}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.55\linewidth,page=73,trim={12mm 31mm 50mm 20mm},clip]{fig/06/bol_da/eta1}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.55\linewidth,page=85,trim={37mm 31mm 20mm 20mm},clip]{fig/06/bol_da/eta1}%
+		\end{minipage}%
+		\vspace{1mm}
+		
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.57\linewidth,page=97,trim={12mm 23mm 50mm 20mm},clip]{fig/06/bol_da/eta1}%
+		\end{minipage}%
+		\begin{minipage}{0.5\linewidth}
+			\centering
+			\includegraphics[height=0.57\linewidth,page=109,trim={37mm 23mm 20mm 20mm},clip]{fig/06/bol_da/eta1}%
+		\end{minipage}%
+		\caption{Líneas de flujo para la solución en Bolund con DA en el primer nivel ($z_1 = 1.12$ [m]) para (a) 12:00, (b) 13:00, (c) 14:00 y (d) 15:00.}
+		\label{fig:06_bol_da_st}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.80\linewidth,trim={0mm 202.0mm 111mm 106mm},clip]{fig/06/bol_da/1200rot}\\%
+		\includegraphics[width=0.80\linewidth,trim={0mm 202.0mm 111mm 106mm},clip]{fig/06/bol_da/1300rot}\\%
+		\includegraphics[width=0.80\linewidth,trim={0mm 202.0mm 111mm 106mm},clip]{fig/06/bol_da/1400rot}\\%
+		\includegraphics[width=0.80\linewidth,trim={0mm 180.0mm 111mm 106mm},clip]{fig/06/bol_da/1500rot}%
+		\vspace{-2mm}
+		\caption{Contornos de rapidez del viento para la sección de corte vertical a 240$^\circ$ en Bolund con DA. 12:00 a 15:00. Escala 1:1.}
+		\label{fig:06_bol_da_cross}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos (Aceleración M1-M4)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=1,clip]{fig/06/bol_da/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=13,clip]{fig/06/bol_da/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=25,clip]{fig/06/bol_da/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=37,clip]{fig/06/bol_da/speedup}\\%
+		\includegraphics[width=0.65\linewidth,trim={-11mm 193mm 115mm 112mm},clip]{fig/06/bol/cross_height}\\%
+		%\caption{Speedup en los primeros 3 niveles del modelo ($1.1$ [m] azul; $3.4$ [m] verde; $5.6$ [m] amarillo) para la sección de corte a 240$^\circ$ en Bolund. Se muestran los resultados para las 12:00 (arriba), 13:00, 14:00 y 15:00 horas (abajo).}
+		\label{fig:06_bol_da_speedup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos (Delta TKE)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=1,clip]{fig/06/bol_da/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=13,clip]{fig/06/bol_da/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=25,clip]{fig/06/bol_da/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={12mm 84mm 10mm 74mm},page=37,clip]{fig/06/bol_da/delta_tke}\\%
+		\includegraphics[width=0.65\linewidth,trim={-13.3mm 193mm 115mm 112mm},clip]{fig/06/bol/cross_height}\\%
+		%\caption{Incremento adimensional de energía cinética turbulenta (sgs) en los primeros 3 niveles del modelo ($1.1$ [m] azul; $3.4$ [m] verde; $5.6$ [m] amarillo) para la sección de corte a 240$^\circ$ en Bolund. Se muestran los resultados para las 12:00 (arriba), 13:00, 14:00 y 15:00 horas (abajo).}
+		\label{fig:06_bol_da_tke}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=0.6\linewidth,page=1,trim={28mm 10mm 25mm 23mm},clip]{fig/06/bol_da/V_masts}%
+		\includegraphics[height=0.6\linewidth,page=1,trim={30mm 10mm 17mm 20mm},clip]{fig/06/bol_da/k_masts}%
+		\vspace{-2mm}\caption{Perfil vertical promedio de 12:00 a 15:00 de (a) \emph{speedup} y (b) variación adimensional de energía cinética turbulenta para las estaciones M1 (azul), M2 (naranja), M3 (verde) y M4 (rojo) para el caso con DA.}
+		\label{fig:06_bol_da_mast_tke_speedup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=1,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=1,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point1.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M1 con DA.}
+		\label{fig:06_bol_da_ts_m1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=2,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=2,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point2.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M2 con DA.}
+		\label{fig:06_bol_da_ts_m2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=3,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=3,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point3.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M3 con DA.}
+		\label{fig:06_bol_da_ts_m3}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=4,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=4,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point4.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M4 con DA.}
+		\label{fig:06_bol_da_ts_m4}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=5,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=5,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point5.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M5 con DA.}
+		\label{fig:06_bol_da_ts_m5}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=6,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=6,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point6.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M6 con DA.}
+		\label{fig:06_bol_da_ts_m6}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=7,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=7,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point7.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M7 con DA.}
+		\label{fig:06_bol_da_ts_m7}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.65\linewidth}
+			\includegraphics[width=1.2\linewidth,page=8,trim={9mm 57mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare.pdf}\\%
+			\includegraphics[width=1.2\linewidth,page=8,trim={12mm 52mm 5mm 60mm},clip]{fig/06/bol_da/ts_interpol_compare_o.pdf}%
+		\end{minipage}%
+		\begin{minipage}{0.35\linewidth}
+			\centering
+			\includegraphics[width=1\linewidth,page=1,trim={3.5cm 9.3cm 0.8cm 3.8cm},clip]{fig/05/ppt/bol_control_point8.pdf}%
+		\end{minipage}%
+		\vspace{-2mm}\caption{Series de tiempo para la rapidez $V$ y dirección $\theta$ del viento en M8 con DA.}
+		\label{fig:06_bol_da_ts_m8}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\begin{minipage}{0.33\linewidth}
+			\centering \hspace{0.5cm}(a)
+		\end{minipage}%
+		\begin{minipage}{0.33\linewidth}
+			\centering \hspace{0.6cm}(b)
+		\end{minipage}%
+		\begin{minipage}{0.33\linewidth}
+			\centering \hspace{0.3cm}(c)
+		\end{minipage}%
+		\vspace{-3mm}
+		\begin{center}
+			\includegraphics[height=0.5\linewidth,page=1,trim={6mm 5mm 3mm 0mm},clip]{fig/06/bol_da/second_order_mean}%
+			\includegraphics[height=0.5\linewidth,page=2,trim={12mm 5mm 3mm 0mm},clip]{fig/06/bol_da/second_order_mean}%
+			\includegraphics[height=0.5\linewidth,page=3,trim={12mm 5mm 3mm 0mm},clip]{fig/06/bol_da/second_order_mean}%
+		\end{center}
+		\vspace{-5mm}
+		\caption{Variables adimensionalizadas de segundo orden para M1-M4 con DA promediadas entre las 12:00 y las 15:00. (a) Energía cinética turbulenta de submalla, (b) Gradiente de velocidad, (c) Esfuerzo turbulento. }
+		\label{fig:06_bol_da_mean_secondorder}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos}
+	\begin{figure}[H]
+		\centering
+		\hspace*{-5mm}\includegraphics[width=1.1\linewidth,page=1,trim={3mm 5mm -7mm 3mm},clip]{fig/06/bol_da/spectra}%
+		%\vspace{-3mm}
+		\caption{Espectros de energía cinética para la magnitud horizontal del viento a distintos niveles verticales en el dominio d08 caso Bolund con DA.}
+		\label{fig:06_bol_da_spectrum}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos (Dispersión)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth,page=1,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		\includegraphics[width=0.4\linewidth,page=2,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		
+		\includegraphics[width=0.4\linewidth,page=3,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		\includegraphics[width=0.4\linewidth,page=4,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		%\caption{Gráfico de dispersión para las velocidades a distintas alturas en los mástiles M1-M4 en Bolund.}
+		\label{fig:06_corr_bol1_da}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Asimilación de Datos (Dispersión)}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth,page=5,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		\includegraphics[width=0.4\linewidth,page=6,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		
+		\includegraphics[width=0.4\linewidth,page=7,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		\includegraphics[width=0.4\linewidth,page=8,trim={0cm 0cm 0cm 0cm},clip]{fig/06/bol_da/corr}%
+		%\caption{Gráfico de dispersión para las velocidades a distintas alturas en los mástiles M5-M8 en Bolund.}
+		\label{fig:06_corr_bol2_da}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}{Caso II: Bolund - Síntesis}
+	\begin{minipage}{0.5\linewidth}
+		Observaciones relevantes:
+		\begin{itemize}
+			\item aaa
+			\item bbb
+			\item ccc
+			\item ddd
+		\end{itemize}
+	\end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+		\begin{table}[h!]
+			\caption{Comparación de métricas para el caso II Bolund.}
+			\label{tab:06_bol_mae_rmse}
+			\centering%\footnotesize
+			\begin{tabular}{lcc}
+				\toprule
+				& Sin DA & Con DA \\
+				\midrule
+				MAE & 2.67 m/s & 4.36 m/s \\
+				RMSE & 2.95 m/s& 4.90 m/s\\
+				$\Delta{RMSE}$&  -- & $-65.91\%$ \\
+				$\Delta{MAE}$ &  -- & $-63.01\%$ \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+	\end{minipage}%
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{8. Conclusiones}
 \begin{frame}{Conclusiones}
 \end{frame}
 
-\begin{frame}{Agradecimientos}
-\end{frame}
 
+\begin{frame}{Agradecimientos}
+	\vspace{-0.5cm}
+	\begin{minipage}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{fig/agrad/dtu}%
+	\end{minipage}%
+	\begin{minipage}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.6\linewidth]{fig/agrad/dgiip}%
+	\end{minipage}%
+	
+	\vspace{0.7cm}
+	\centering
+	\includegraphics[width=0.7\linewidth]{fig/agrad/conicyt}%
+	
+\end{frame}
 
 \begin{frame}
 	\vspace{0.3cm}
