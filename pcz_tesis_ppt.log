@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  24 SEP 2019 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  4 NOV 2019 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1639,1612 +1639,2049 @@ Overfull \vbox (6.43266pt too high) detected at line 228
 ] [21
 
 ]
-<tesis_experimentos.pdf, id=553, 434.58359pt x 189.8292pt>
+<fig/03/turbulent.pdf, id=558, 495.02942pt x 702.71432pt>
+File: fig/03/turbulent.pdf Graphic file (type pdf)
+
+<use fig/03/turbulent.pdf>
+Package pdftex.def Info: fig/03/turbulent.pdf used on input line 335.
+(pdftex.def)             Requested size: 245.83282pt x 148.54948pt.
+ [22
+
+ <./fig/03/turbulent.pdf>] [23
+
+]
+<fig/03/spectra.pdf, id=608, 532.99126pt x 732.83784pt>
+File: fig/03/spectra.pdf Graphic file (type pdf)
+
+<use fig/03/spectra.pdf>
+Package pdftex.def Info: fig/03/spectra.pdf used on input line 357.
+(pdftex.def)             Requested size: 230.46739pt x 160.88744pt.
+ [24
+
+ <./fig/03/spectra.pdf>]
+<fig/03/abl.pdf, id=622, 496.85625pt x 259.7203pt>
+File: fig/03/abl.pdf Graphic file (type pdf)
+ <use fig/03/abl.pdf>
+Package pdftex.def Info: fig/03/abl.pdf used on input line 366.
+(pdftex.def)             Requested size: 301.14275pt x 157.41858pt.
+
+[25
+
+ <./fig/03/abl.pdf, page is rotated 90 degrees>] [26
+
+]
+<fig/03/pbl2.png, id=643, 473.80917pt x 741.38445pt>
+File: fig/03/pbl2.png Graphic file (type png)
+ <use fig/03/pbl2.png>
+Package pdftex.def Info: fig/03/pbl2.png used on input line 389.
+(pdftex.def)             Requested size: 184.3758pt x 193.30347pt.
+
+Overfull \vbox (3.54283pt too high) detected at line 389
+ []
+
+[27
+
+ <./fig/03/pbl2.png>] [28
+
+] [29
+
+] [30
+
+]
+<fig/03/les.pdf, id=675, 495.02942pt x 702.71432pt>
+File: fig/03/les.pdf Graphic file (type pdf)
+ <use fig/03/les.pdf>
+Package pdftex.def Info: fig/03/les.pdf used on input line 470.
+(pdftex.def)             Requested size: 215.10196pt x 171.18335pt.
+
+Overfull \vbox (2.42271pt too high) detected at line 470
+ []
+
+[31
+
+ <./fig/03/les.pdf>] [32
+
+] [33
+
+] [34
+
+]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 523.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 523.
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <> not available
+(Font)              size <5> substituted on input line 523.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 523.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 523.
+
+[35
+
+] [36
+
+] <fig/04/eta.pdf, id=756, 614.295pt x 794.97pt>
+File: fig/04/eta.pdf Graphic file (type pdf)
+ <use fig/04/eta.pdf>
+Package pdftex.def Info: fig/04/eta.pdf used on input line 568.
+(pdftex.def)             Requested size: 160.55933pt x 187.93997pt.
+
+Overfull \hbox (1.63579pt too wide) detected at line 568
+\U/zeur/m/n/10 ^^Q \U/zeus/m/n/10 ½ [] ½ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+
+ []
+
+
+Overfull \vbox (8.17934pt too high) detected at line 568
+ []
+
+[37
+
+ <./fig/04/eta.pdf>] [38
+
+] [39
+
+] [40
+
+]
+<tesis_experimentos.pdf, id=837, 434.58359pt x 189.8292pt>
 File: tesis_experimentos.pdf Graphic file (type pdf)
 
 <use tesis_experimentos.pdf>
-Package pdftex.def Info: tesis_experimentos.pdf used on input line 349.
+Package pdftex.def Info: tesis_experimentos.pdf used on input line 641.
 (pdftex.def)             Requested size: 307.28987pt x 134.23221pt.
- [22
+ [41
 
  <./tesis_experimentos.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./tesis_experimentos.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
->] <fig/05/hovsore.png, id=570, 2187.17125pt x 1154.3125pt>
+>] <fig/05/hovsore.png, id=854, 2187.17125pt x 1154.3125pt>
 File: fig/05/hovsore.png Graphic file (type png)
 
 <use fig/05/hovsore.png>
-Package pdftex.def Info: fig/05/hovsore.png used on input line 358.
+Package pdftex.def Info: fig/05/hovsore.png used on input line 650.
 (pdftex.def)             Requested size: 301.14275pt x 158.92542pt.
- [23
+ [42
 
  <./fig/05/hovsore.png>]
-<fig/05/hov_dom1_edit.jpg, id=580, 885.3075pt x 887.88857pt>
+<fig/05/hov_dom1_edit.jpg, id=864, 885.3075pt x 887.88857pt>
 File: fig/05/hov_dom1_edit.jpg Graphic file (type jpg)
 
 <use fig/05/hov_dom1_edit.jpg>
-Package pdftex.def Info: fig/05/hov_dom1_edit.jpg used on input line 376.
+Package pdftex.def Info: fig/05/hov_dom1_edit.jpg used on input line 668.
 (pdftex.def)             Requested size: 138.2795pt x 138.67805pt.
 
-<fig/05/hov_dom2_edit.jpg, id=582, 861.2175pt x 861.2175pt>
+<fig/05/hov_dom2_edit.jpg, id=866, 861.2175pt x 861.2175pt>
 File: fig/05/hov_dom2_edit.jpg Graphic file (type jpg)
 
 <use fig/05/hov_dom2_edit.jpg>
-Package pdftex.def Info: fig/05/hov_dom2_edit.jpg used on input line 376.
+Package pdftex.def Info: fig/05/hov_dom2_edit.jpg used on input line 668.
 (pdftex.def)             Requested size: 138.2795pt x 138.27069pt.
- [24
+ [43
 
  <./fig/05/hov_dom1_edit.jpg> <./fig/05/hov_dom2_edit.jpg>] <fig/05/hov_control
-_point.pdf, id=592, 614.295pt x 794.97pt>
+_point.pdf, id=877, 614.295pt x 794.97pt>
 File: fig/05/hov_control_point.pdf Graphic file (type pdf)
 
 <use fig/05/hov_control_point.pdf>
-Package pdftex.def Info: fig/05/hov_control_point.pdf used on input line 394.
+Package pdftex.def Info: fig/05/hov_control_point.pdf used on input line 686.
 (pdftex.def)             Requested size: 138.2795pt x 145.15828pt.
 
-<fig/05/mesh57.png, id=594, 1027.84pt x 1027.84pt>
+<fig/05/mesh57.png, id=879, 1027.84pt x 1027.84pt>
 File: fig/05/mesh57.png Graphic file (type png)
  <use fig/05/mesh57.png>
-Package pdftex.def Info: fig/05/mesh57.png used on input line 394.
+Package pdftex.def Info: fig/05/mesh57.png used on input line 686.
 (pdftex.def)             Requested size: 138.2795pt x 145.25671pt.
 
-[25
+[44
 
- <./fig/05/hov_control_point.pdf> <./fig/05/mesh57.png>] [26
+ <./fig/05/hov_control_point.pdf> <./fig/05/mesh57.png>] [45
 
-] [27
+] [46
 
 ]
-<fig/05/bolund.png, id=622, 853.1875pt x 608.2725pt>
+<fig/05/bolund.png, id=904, 853.1875pt x 608.2725pt>
 File: fig/05/bolund.png Graphic file (type png)
  <use fig/05/bolund.png>
-Package pdftex.def Info: fig/05/bolund.png used on input line 469.
+Package pdftex.def Info: fig/05/bolund.png used on input line 761.
 (pdftex.def)             Requested size: 245.83282pt x 175.26216pt.
 
-[28
+[47
 
  <./fig/05/bolund.png>]
-<fig/05/bol_d1-2-3-4edit.jpg, id=632, 1806.75pt x 1806.75pt>
+<fig/05/bol_d1-2-3-4edit.jpg, id=915, 1806.75pt x 1806.75pt>
 File: fig/05/bol_d1-2-3-4edit.jpg Graphic file (type jpg)
 
 <use fig/05/bol_d1-2-3-4edit.jpg>
-Package pdftex.def Info: fig/05/bol_d1-2-3-4edit.jpg used on input line 483.
+Package pdftex.def Info: fig/05/bol_d1-2-3-4edit.jpg used on input line 775.
 (pdftex.def)             Requested size: 147.49782pt x 147.95615pt.
 
-<fig/05/bol_d6-7-8edit.jpg, id=634, 1806.75pt x 1806.75pt>
+<fig/05/bol_d6-7-8edit.jpg, id=917, 1806.75pt x 1806.75pt>
 File: fig/05/bol_d6-7-8edit.jpg Graphic file (type jpg)
 
 <use fig/05/bol_d6-7-8edit.jpg>
-Package pdftex.def Info: fig/05/bol_d6-7-8edit.jpg used on input line 483.
+Package pdftex.def Info: fig/05/bol_d6-7-8edit.jpg used on input line 775.
 (pdftex.def)             Requested size: 147.49782pt x 147.95615pt.
- [29
+ [48
 
  <./fig/05/bol_d1-2-3-4edit.jpg> <./fig/05/bol_d6-7-8edit.jpg>]
-<fig/05/bol_control_point.pdf, id=644, page=1, 614.295pt x 794.97pt>
+<fig/05/bol_control_point.pdf, id=927, page=1, 614.295pt x 794.97pt>
 File: fig/05/bol_control_point.pdf Graphic file (type pdf)
 
 <use fig/05/bol_control_point.pdf, page 1>
 Package pdftex.def Info: fig/05/bol_control_point.pdf, page1 used on input line
- 493.
+ 785.
 (pdftex.def)             Requested size: 230.46739pt x 183.02701pt.
 
-Overfull \vbox (8.07584pt too high) detected at line 493
+Overfull \vbox (8.07584pt too high) detected at line 785
  []
 
-[30
+[49
 
  <./fig/05/bol_control_point.pdf>]
-<fig/05/mesh_y50.png, id=655, 1027.84pt x 1027.84pt>
+<fig/05/mesh_y50.png, id=939, 1027.84pt x 1027.84pt>
 File: fig/05/mesh_y50.png Graphic file (type png)
  <use fig/05/mesh_y50.png>
-Package pdftex.def Info: fig/05/mesh_y50.png used on input line 511.
+Package pdftex.def Info: fig/05/mesh_y50.png used on input line 803.
 (pdftex.def)             Requested size: 138.2795pt x 138.26622pt.
 
-<fig/05/hd_mesh_50.png, id=657, 1027.84pt x 1027.84pt>
+<fig/05/hd_mesh_50.png, id=941, 1027.84pt x 1027.84pt>
 File: fig/05/hd_mesh_50.png Graphic file (type png)
 
 <use fig/05/hd_mesh_50.png>
-Package pdftex.def Info: fig/05/hd_mesh_50.png used on input line 511.
+Package pdftex.def Info: fig/05/hd_mesh_50.png used on input line 803.
 (pdftex.def)             Requested size: 138.2795pt x 138.26622pt.
- [31
+ [50
 
- <./fig/05/mesh_y50.png> <./fig/05/hd_mesh_50.png>] [32
+ <./fig/05/mesh_y50.png> <./fig/05/hd_mesh_50.png>] [51
 
-] [33
+] [52
 
-] <fig/05/da.pdf, id=681, page=1, 295.1025pt x 112.50029pt>
+] <fig/05/da.pdf, id=964, page=1, 295.1025pt x 112.50029pt>
 File: fig/05/da.pdf Graphic file (type pdf)
 
 <use fig/05/da.pdf, page 1>
-Package pdftex.def Info: fig/05/da.pdf, page1 used on input line 586.
+Package pdftex.def Info: fig/05/da.pdf, page1 used on input line 878.
 (pdftex.def)             Requested size: 291.92444pt x 111.2915pt.
- [34
+ [53
 
  <./fig/05/da.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./fig/05/da.pdf): PDF inclusion: invali
 d other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <fig/05/eta1_da_hov.pdf, id=705, page=1, 614.295pt x 794.97pt>
+>] [54
+
+] <fig/05/eta1_da_hov.pdf, id=995, page=1, 614.295pt x 794.97pt>
 File: fig/05/eta1_da_hov.pdf Graphic file (type pdf)
 
 <use fig/05/eta1_da_hov.pdf, page 1>
-Package pdftex.def Info: fig/05/eta1_da_hov.pdf, page1 used on input line 603.
+Package pdftex.def Info: fig/05/eta1_da_hov.pdf, page1 used on input line 933.
 (pdftex.def)             Requested size: 153.64493pt x 146.42531pt.
 
-<fig/05/eta1_da_bol.pdf, id=707, page=1, 614.295pt x 794.97pt>
+<fig/05/eta1_da_bol.pdf, id=997, page=1, 614.295pt x 794.97pt>
 File: fig/05/eta1_da_bol.pdf Graphic file (type pdf)
 
 <use fig/05/eta1_da_bol.pdf, page 1>
-Package pdftex.def Info: fig/05/eta1_da_bol.pdf, page1 used on input line 603.
+Package pdftex.def Info: fig/05/eta1_da_bol.pdf, page1 used on input line 933.
 (pdftex.def)             Requested size: 153.64493pt x 143.05605pt.
- [35
+ [55
 
- <./fig/05/eta1_da_hov.pdf> <./fig/05/eta1_da_bol.pdf>] [36
+ <./fig/05/eta1_da_hov.pdf> <./fig/05/eta1_da_bol.pdf>] [56
 
-] <fig/06/hov/pbl.pdf, id=730, 289.08pt x 505.89pt>
+] <fig/06/hov/pbl.pdf, id=1017, 289.08pt x 505.89pt>
 File: fig/06/hov/pbl.pdf Graphic file (type pdf)
 
 <use fig/06/hov/pbl.pdf>
-Package pdftex.def Info: fig/06/hov/pbl.pdf used on input line 638.
+Package pdftex.def Info: fig/06/hov/pbl.pdf used on input line 968.
 (pdftex.def)             Requested size: 115.23369pt x 195.98677pt.
 
-<fig/06/hov/temp_profile.pdf, id=732, 289.08pt x 505.89pt>
+<fig/06/hov/temp_profile.pdf, id=1019, 289.08pt x 505.89pt>
 File: fig/06/hov/temp_profile.pdf Graphic file (type pdf)
 
 <use fig/06/hov/temp_profile.pdf>
-Package pdftex.def Info: fig/06/hov/temp_profile.pdf used on input line 638.
+Package pdftex.def Info: fig/06/hov/temp_profile.pdf used on input line 968.
 (pdftex.def)             Requested size: 115.23369pt x 195.98677pt.
 
-Overfull \vbox (0.97614pt too high) detected at line 638
+Overfull \vbox (1.97614pt too high) detected at line 968
  []
 
-[37
+[57
 
  <./fig/06/hov/pbl.pdf> <./fig/06/hov/temp_profile.pdf>]
-<fig/06/hov/eta1_V.pdf, id=801, page=55, 614.295pt x 794.97pt>
+<fig/06/hov/eta1_V.pdf, id=1087, page=55, 614.295pt x 794.97pt>
 File: fig/06/hov/eta1_V.pdf Graphic file (type pdf)
 
 <use fig/06/hov/eta1_V.pdf, page 55>
-Package pdftex.def Info: fig/06/hov/eta1_V.pdf, page55 used on input line 647.
+Package pdftex.def Info: fig/06/hov/eta1_V.pdf, page55 used on input line 977.
 (pdftex.def)             Requested size: 184.3758pt x 175.71336pt.
- [38
+ [58
 
  <./fig/06/hov/eta1_V.pdf>]
-<fig/06/hov/ts_v.pdf, id=812, 794.97pt x 614.295pt>
+<fig/06/hov/ts_v.pdf, id=1098, 794.97pt x 614.295pt>
 File: fig/06/hov/ts_v.pdf Graphic file (type pdf)
  <use fig/06/hov/ts_v.pdf>
-Package pdftex.def Info: fig/06/hov/ts_v.pdf used on input line 659.
+Package pdftex.def Info: fig/06/hov/ts_v.pdf used on input line 989.
 (pdftex.def)             Requested size: 261.19826pt x 98.19615pt.
 
-<fig/06/hov/ts_o.pdf, id=814, 794.97pt x 614.295pt>
+<fig/06/hov/ts_o.pdf, id=1100, 794.97pt x 614.295pt>
 File: fig/06/hov/ts_o.pdf Graphic file (type pdf)
  <use fig/06/hov/ts_o.pdf>
-Package pdftex.def Info: fig/06/hov/ts_o.pdf used on input line 659.
+Package pdftex.def Info: fig/06/hov/ts_o.pdf used on input line 989.
 (pdftex.def)             Requested size: 261.19826pt x 107.46632pt.
 
-Overfull \vbox (5.02075pt too high) detected at line 659
+Overfull \vbox (5.02075pt too high) detected at line 989
  []
 
-[39
+[59
 
  <./fig/06/hov/ts_v.pdf, page is rotated 270 degrees> <./fig/06/hov/ts_o.pdf, p
 age is rotated 270 degrees>]
-<fig/06/hov/9u.pdf, id=828, page=37, 614.295pt x 794.97pt>
+<fig/06/hov/9u.pdf, id=1114, page=37, 614.295pt x 794.97pt>
 File: fig/06/hov/9u.pdf Graphic file (type pdf)
 
 <use fig/06/hov/9u.pdf, page 37>
-Package pdftex.def Info: fig/06/hov/9u.pdf, page37 used on input line 673.
+Package pdftex.def Info: fig/06/hov/9u.pdf, page37 used on input line 1003.
 (pdftex.def)             Requested size: 105.53848pt x 184.3758pt.
 
-<fig/06/hov/9v.pdf, id=830, page=37, 614.295pt x 794.97pt>
+<fig/06/hov/9v.pdf, id=1116, page=37, 614.295pt x 794.97pt>
 File: fig/06/hov/9v.pdf Graphic file (type pdf)
 
 <use fig/06/hov/9v.pdf, page 37>
-Package pdftex.def Info: fig/06/hov/9v.pdf, page37 used on input line 673.
+Package pdftex.def Info: fig/06/hov/9v.pdf, page37 used on input line 1003.
 (pdftex.def)             Requested size: 95.73148pt x 184.3758pt.
 
-<fig/06/hov/9V.pdf, id=832, page=37, 614.295pt x 794.97pt>
+<fig/06/hov/9V.pdf, id=1118, page=37, 614.295pt x 794.97pt>
 File: fig/06/hov/9V.pdf Graphic file (type pdf)
 
 <use fig/06/hov/9V.pdf, page 37>
-Package pdftex.def Info: fig/06/hov/9V.pdf, page37 used on input line 673.
+Package pdftex.def Info: fig/06/hov/9V.pdf, page37 used on input line 1003.
 (pdftex.def)             Requested size: 111.57356pt x 184.3758pt.
 
-Overfull \hbox (5.55365pt too wide) in paragraph at lines 673--673
+Overfull \hbox (5.55365pt too wide) in paragraph at lines 1003--1003
  [][][] 
  []
 
-[40
+[60
 
  <./fig/06/hov/9u.pdf> <./fig/06/hov/9v.pdf> <./fig/06/hov/9V.pdf>]
-<fig/06/hov/mean_data.pdf, id=849, page=1, 361.35pt x 505.89pt>
+<fig/06/hov/mean_data.pdf, id=1135, page=1, 361.35pt x 505.89pt>
 File: fig/06/hov/mean_data.pdf Graphic file (type pdf)
 
 <use fig/06/hov/mean_data.pdf, page 1>
-Package pdftex.def Info: fig/06/hov/mean_data.pdf, page1 used on input line 685
-.
+Package pdftex.def Info: fig/06/hov/mean_data.pdf, page1 used on input line 101
+5.
 (pdftex.def)             Requested size: 104.9193pt x 153.64493pt.
 
-<fig/06/hov/mean_data.pdf, id=851, page=2, 361.35pt x 505.89pt>
+<fig/06/hov/mean_data.pdf, id=1137, page=2, 361.35pt x 505.89pt>
 File: fig/06/hov/mean_data.pdf Graphic file (type pdf)
 
 <use fig/06/hov/mean_data.pdf, page 2>
-Package pdftex.def Info: fig/06/hov/mean_data.pdf, page2 used on input line 685
-.
+Package pdftex.def Info: fig/06/hov/mean_data.pdf, page2 used on input line 101
+5.
 (pdftex.def)             Requested size: 99.58441pt x 153.64493pt.
 
-<fig/06/hov/mean_data.pdf, id=853, page=3, 361.35pt x 505.89pt>
+<fig/06/hov/mean_data.pdf, id=1139, page=3, 361.35pt x 505.89pt>
 File: fig/06/hov/mean_data.pdf Graphic file (type pdf)
 
 <use fig/06/hov/mean_data.pdf, page 3>
-Package pdftex.def Info: fig/06/hov/mean_data.pdf, page3 used on input line 685
-.
+Package pdftex.def Info: fig/06/hov/mean_data.pdf, page3 used on input line 101
+5.
 (pdftex.def)             Requested size: 102.25185pt x 153.64493pt.
- [41
+ [61
 
  <./fig/06/hov/mean_data.pdf> <./fig/06/hov/mean_data.pdf> <./fig/06/hov/mean_d
 ata.pdf>]
-<fig/06/hov/spectra.pdf, id=902, page=1, 578.16pt x 289.08pt>
+<fig/06/hov/spectra.pdf, id=1188, page=1, 578.16pt x 289.08pt>
 File: fig/06/hov/spectra.pdf Graphic file (type pdf)
 
 <use fig/06/hov/spectra.pdf, page 1>
-Package pdftex.def Info: fig/06/hov/spectra.pdf, page1 used on input line 695.
+Package pdftex.def Info: fig/06/hov/spectra.pdf, page1 used on input line 1025.
+
 (pdftex.def)             Requested size: 338.02072pt x 152.69675pt.
 
-Overfull \hbox (16.50449pt too wide) in paragraph at lines 695--695
+Overfull \hbox (16.50449pt too wide) in paragraph at lines 1025--1025
  | [] 
  []
 
-[42
+[62
 
  <./fig/06/hov/spectra.pdf>]
-<fig/06/hov/corr.pdf, id=949, page=1, 549.25201pt x 505.89pt>
+<fig/06/hov/corr.pdf, id=1235, page=1, 549.25201pt x 505.89pt>
 File: fig/06/hov/corr.pdf Graphic file (type pdf)
 
 <use fig/06/hov/corr.pdf, page 1>
-Package pdftex.def Info: fig/06/hov/corr.pdf, page1 used on input line 707.
+Package pdftex.def Info: fig/06/hov/corr.pdf, page1 used on input line 1037.
 (pdftex.def)             Requested size: 184.3758pt x 156.91545pt.
- [43
+ [63
 
  <./fig/06/hov/corr.pdf>]
-<fig/06/hov_da/ts_v.pdf, id=1000, 794.97pt x 614.295pt>
+<fig/06/hov_da/ts_v.pdf, id=1285, 794.97pt x 614.295pt>
 File: fig/06/hov_da/ts_v.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/ts_v.pdf>
-Package pdftex.def Info: fig/06/hov_da/ts_v.pdf used on input line 729.
+Package pdftex.def Info: fig/06/hov_da/ts_v.pdf used on input line 1059.
 (pdftex.def)             Requested size: 261.19826pt x 98.19615pt.
 
-<fig/06/hov_da/ts_o.pdf, id=1002, 794.97pt x 614.295pt>
+<fig/06/hov_da/ts_o.pdf, id=1287, 794.97pt x 614.295pt>
 File: fig/06/hov_da/ts_o.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/ts_o.pdf>
-Package pdftex.def Info: fig/06/hov_da/ts_o.pdf used on input line 729.
+Package pdftex.def Info: fig/06/hov_da/ts_o.pdf used on input line 1059.
 (pdftex.def)             Requested size: 261.19826pt x 107.46632pt.
 
-Overfull \vbox (5.02075pt too high) detected at line 729
+Overfull \vbox (5.02075pt too high) detected at line 1059
  []
 
-[44
+[64
 
  <./fig/06/hov_da/ts_v.pdf, page is rotated 270 degrees> <./fig/06/hov_da/ts_o.
 pdf, page is rotated 270 degrees>]
-<fig/06/hov_da/9u.pdf, id=1017, page=37, 614.295pt x 794.97pt>
+<fig/06/hov_da/9u.pdf, id=1301, page=37, 614.295pt x 794.97pt>
 File: fig/06/hov_da/9u.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/9u.pdf, page 37>
-Package pdftex.def Info: fig/06/hov_da/9u.pdf, page37 used on input line 743.
+Package pdftex.def Info: fig/06/hov_da/9u.pdf, page37 used on input line 1073.
 (pdftex.def)             Requested size: 105.53848pt x 184.3758pt.
 
-<fig/06/hov_da/9v.pdf, id=1019, page=37, 614.295pt x 794.97pt>
+<fig/06/hov_da/9v.pdf, id=1303, page=37, 614.295pt x 794.97pt>
 File: fig/06/hov_da/9v.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/9v.pdf, page 37>
-Package pdftex.def Info: fig/06/hov_da/9v.pdf, page37 used on input line 743.
+Package pdftex.def Info: fig/06/hov_da/9v.pdf, page37 used on input line 1073.
 (pdftex.def)             Requested size: 95.73148pt x 184.3758pt.
 
-<fig/06/hov_da/9V.pdf, id=1021, page=37, 614.295pt x 794.97pt>
+<fig/06/hov_da/9V.pdf, id=1305, page=37, 614.295pt x 794.97pt>
 File: fig/06/hov_da/9V.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/9V.pdf, page 37>
-Package pdftex.def Info: fig/06/hov_da/9V.pdf, page37 used on input line 743.
+Package pdftex.def Info: fig/06/hov_da/9V.pdf, page37 used on input line 1073.
 (pdftex.def)             Requested size: 111.57356pt x 184.3758pt.
 
-Overfull \hbox (5.55365pt too wide) in paragraph at lines 743--743
+Overfull \hbox (5.55365pt too wide) in paragraph at lines 1073--1073
  [][][] 
  []
 
-[45
+[65
 
  <./fig/06/hov_da/9u.pdf> <./fig/06/hov_da/9v.pdf> <./fig/06/hov_da/9V.pdf>] <f
-ig/06/hov_da/mean_data.pdf, id=1038, page=1, 361.35pt x 505.89pt>
+ig/06/hov_da/mean_data.pdf, id=1323, page=1, 361.35pt x 505.89pt>
 File: fig/06/hov_da/mean_data.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/mean_data.pdf, page 1>
 Package pdftex.def Info: fig/06/hov_da/mean_data.pdf, page1 used on input line 
-755.
+1085.
 (pdftex.def)             Requested size: 104.9193pt x 153.64493pt.
 
-<fig/06/hov_da/mean_data.pdf, id=1040, page=2, 361.35pt x 505.89pt>
+<fig/06/hov_da/mean_data.pdf, id=1325, page=2, 361.35pt x 505.89pt>
 File: fig/06/hov_da/mean_data.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/mean_data.pdf, page 2>
 Package pdftex.def Info: fig/06/hov_da/mean_data.pdf, page2 used on input line 
-755.
+1085.
 (pdftex.def)             Requested size: 99.58441pt x 153.64493pt.
 
-<fig/06/hov_da/mean_data.pdf, id=1042, page=3, 361.35pt x 505.89pt>
+<fig/06/hov_da/mean_data.pdf, id=1327, page=3, 361.35pt x 505.89pt>
 File: fig/06/hov_da/mean_data.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/mean_data.pdf, page 3>
 Package pdftex.def Info: fig/06/hov_da/mean_data.pdf, page3 used on input line 
-755.
+1085.
 (pdftex.def)             Requested size: 102.25185pt x 153.64493pt.
- [46
+ [66
 
  <./fig/06/hov_da/mean_data.pdf> <./fig/06/hov_da/mean_data.pdf> <./fig/06/hov_
 da/mean_data.pdf>]
-<fig/06/hov_da/spectra.pdf, id=1090, page=1, 578.16pt x 289.08pt>
+<fig/06/hov_da/spectra.pdf, id=1375, page=1, 578.16pt x 289.08pt>
 File: fig/06/hov_da/spectra.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/spectra.pdf, page 1>
-Package pdftex.def Info: fig/06/hov_da/spectra.pdf, page1 used on input line 76
-5.
+Package pdftex.def Info: fig/06/hov_da/spectra.pdf, page1 used on input line 10
+95.
 (pdftex.def)             Requested size: 338.02072pt x 152.69675pt.
 
-Overfull \hbox (16.50449pt too wide) in paragraph at lines 765--765
+Overfull \hbox (16.50449pt too wide) in paragraph at lines 1095--1095
  | [] 
  []
 
-[47
+[67
 
  <./fig/06/hov_da/spectra.pdf>]
-<fig/06/hov_da/corr.pdf, id=1137, page=1, 549.25201pt x 505.89pt>
+<fig/06/hov_da/corr.pdf, id=1423, page=1, 549.25201pt x 505.89pt>
 File: fig/06/hov_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/hov_da/corr.pdf, page 1>
-Package pdftex.def Info: fig/06/hov_da/corr.pdf, page1 used on input line 776.
-(pdftex.def)             Requested size: 215.10196pt x 183.06052pt.
- [48
+Package pdftex.def Info: fig/06/hov_da/corr.pdf, page1 used on input line 1106.
 
- <./fig/06/hov_da/corr.pdf>] [49
+(pdftex.def)             Requested size: 215.10196pt x 183.06052pt.
+ [68
+
+ <./fig/06/hov_da/corr.pdf>] [69
 
 ]
-<fig/06/bol/mean_pbl.pdf, id=1194, 289.08pt x 505.89pt>
+<fig/06/bol/mean_pbl.pdf, id=1479, 289.08pt x 505.89pt>
 File: fig/06/bol/mean_pbl.pdf Graphic file (type pdf)
 
 <use fig/06/bol/mean_pbl.pdf>
-Package pdftex.def Info: fig/06/bol/mean_pbl.pdf used on input line 827.
+Package pdftex.def Info: fig/06/bol/mean_pbl.pdf used on input line 1158.
 (pdftex.def)             Requested size: 115.23369pt x 195.98677pt.
 
-<fig/06/bol/mean_profile.pdf, id=1196, 289.08pt x 505.89pt>
+<fig/06/bol/mean_profile.pdf, id=1481, 289.08pt x 505.89pt>
 File: fig/06/bol/mean_profile.pdf Graphic file (type pdf)
 
 <use fig/06/bol/mean_profile.pdf>
-Package pdftex.def Info: fig/06/bol/mean_profile.pdf used on input line 827.
+Package pdftex.def Info: fig/06/bol/mean_profile.pdf used on input line 1158.
 (pdftex.def)             Requested size: 115.23369pt x 195.98677pt.
 
-Overfull \vbox (0.97614pt too high) detected at line 827
+Overfull \vbox (1.97614pt too high) detected at line 1158
  []
 
-[50
+[70
 
  <./fig/06/bol/mean_pbl.pdf> <./fig/06/bol/mean_profile.pdf>]
-<fig/06/bol/eta1.pdf, id=1263, page=73, 794.97pt x 614.295pt>
+<fig/06/bol/eta1.pdf, id=1547, page=73, 794.97pt x 614.295pt>
 File: fig/06/bol/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol/eta1.pdf, page 73>
-Package pdftex.def Info: fig/06/bol/eta1.pdf, page73 used on input line 852.
+Package pdftex.def Info: fig/06/bol/eta1.pdf, page73 used on input line 1183.
 (pdftex.def)             Requested size: 111.40259pt x 84.50517pt.
 
-<fig/06/bol/eta1.pdf, id=1265, page=85, 794.97pt x 614.295pt>
+<fig/06/bol/eta1.pdf, id=1549, page=85, 794.97pt x 614.295pt>
 File: fig/06/bol/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol/eta1.pdf, page 85>
-Package pdftex.def Info: fig/06/bol/eta1.pdf, page85 used on input line 852.
+Package pdftex.def Info: fig/06/bol/eta1.pdf, page85 used on input line 1183.
 (pdftex.def)             Requested size: 113.96475pt x 84.50517pt.
 
-<fig/06/bol/eta1.pdf, id=1267, page=97, 794.97pt x 614.295pt>
+<fig/06/bol/eta1.pdf, id=1551, page=97, 794.97pt x 614.295pt>
 File: fig/06/bol/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol/eta1.pdf, page 97>
-Package pdftex.def Info: fig/06/bol/eta1.pdf, page97 used on input line 852.
+Package pdftex.def Info: fig/06/bol/eta1.pdf, page97 used on input line 1183.
 (pdftex.def)             Requested size: 110.11896pt x 87.57872pt.
 
-<fig/06/bol/eta1.pdf, id=1269, page=109, 794.97pt x 614.295pt>
+<fig/06/bol/eta1.pdf, id=1553, page=109, 794.97pt x 614.295pt>
 File: fig/06/bol/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol/eta1.pdf, page 109>
-Package pdftex.def Info: fig/06/bol/eta1.pdf, page109 used on input line 852.
+Package pdftex.def Info: fig/06/bol/eta1.pdf, page109 used on input line 1183.
 (pdftex.def)             Requested size: 112.6516pt x 87.57872pt.
- [51
+ [71
 
  <./fig/06/bol/eta1.pdf, page is rotated 270 degrees> <./fig/06/bol/eta1.pdf, p
 age is rotated 270 degrees> <./fig/06/bol/eta1.pdf, page is rotated 270 degrees
 > <./fig/06/bol/eta1.pdf, page is rotated 270 degrees>] <fig/06/bol/1200rot.pdf
-, id=1286, 1057.9721pt x 1003.75pt>
+, id=1571, 1057.9721pt x 1003.75pt>
 File: fig/06/bol/1200rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol/1200rot.pdf>
-Package pdftex.def Info: fig/06/bol/1200rot.pdf used on input line 865.
+Package pdftex.def Info: fig/06/bol/1200rot.pdf used on input line 1196.
 (pdftex.def)             Requested size: 245.83282pt x 42.2013pt.
 
-<fig/06/bol/1300rot.pdf, id=1288, 1057.9721pt x 1003.75pt>
+<fig/06/bol/1300rot.pdf, id=1573, 1057.9721pt x 1003.75pt>
 File: fig/06/bol/1300rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol/1300rot.pdf>
-Package pdftex.def Info: fig/06/bol/1300rot.pdf used on input line 865.
+Package pdftex.def Info: fig/06/bol/1300rot.pdf used on input line 1196.
 (pdftex.def)             Requested size: 245.83282pt x 42.2013pt.
 
-<fig/06/bol/1400rot.pdf, id=1290, 1057.9721pt x 1003.75pt>
+<fig/06/bol/1400rot.pdf, id=1575, 1057.9721pt x 1003.75pt>
 File: fig/06/bol/1400rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol/1400rot.pdf>
-Package pdftex.def Info: fig/06/bol/1400rot.pdf used on input line 865.
+Package pdftex.def Info: fig/06/bol/1400rot.pdf used on input line 1196.
 (pdftex.def)             Requested size: 245.83282pt x 42.2013pt.
 
-<fig/06/bol/1500rot.pdf, id=1292, 1057.9721pt x 1003.75pt>
+<fig/06/bol/1500rot.pdf, id=1577, 1057.9721pt x 1003.75pt>
 File: fig/06/bol/1500rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol/1500rot.pdf>
-Package pdftex.def Info: fig/06/bol/1500rot.pdf used on input line 865.
+Package pdftex.def Info: fig/06/bol/1500rot.pdf used on input line 1196.
 (pdftex.def)             Requested size: 245.83282pt x 62.93542pt.
 
-Overfull \vbox (4.83813pt too high) detected at line 865
+Overfull \vbox (4.83813pt too high) detected at line 1196
  []
 
-[52
+[72
 
  <./fig/06/bol/1200rot.pdf, page is rotated 90 degrees> <./fig/06/bol/1300rot.p
 df, page is rotated 90 degrees> <./fig/06/bol/1400rot.pdf, page is rotated 90 d
 egrees> <./fig/06/bol/1500rot.pdf, page is rotated 90 degrees>]
-<fig/06/bol/speedup.pdf, id=1945, page=1, 794.97pt x 614.295pt>
+<fig/06/bol/speedup.pdf, id=2230, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol/speedup.pdf, page 1>
-Package pdftex.def Info: fig/06/bol/speedup.pdf, page1 used on input line 878.
+Package pdftex.def Info: fig/06/bol/speedup.pdf, page1 used on input line 1209.
+
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/speedup.pdf, id=1947, page=13, 794.97pt x 614.295pt>
+<fig/06/bol/speedup.pdf, id=2232, page=13, 794.97pt x 614.295pt>
 File: fig/06/bol/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol/speedup.pdf, page 13>
-Package pdftex.def Info: fig/06/bol/speedup.pdf, page13 used on input line 878.
-
+Package pdftex.def Info: fig/06/bol/speedup.pdf, page13 used on input line 1209
+.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/speedup.pdf, id=1949, page=25, 794.97pt x 614.295pt>
+<fig/06/bol/speedup.pdf, id=2234, page=25, 794.97pt x 614.295pt>
 File: fig/06/bol/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol/speedup.pdf, page 25>
-Package pdftex.def Info: fig/06/bol/speedup.pdf, page25 used on input line 878.
-
+Package pdftex.def Info: fig/06/bol/speedup.pdf, page25 used on input line 1209
+.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/speedup.pdf, id=1951, page=37, 794.97pt x 614.295pt>
+<fig/06/bol/speedup.pdf, id=2236, page=37, 794.97pt x 614.295pt>
 File: fig/06/bol/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol/speedup.pdf, page 37>
-Package pdftex.def Info: fig/06/bol/speedup.pdf, page37 used on input line 878.
-
+Package pdftex.def Info: fig/06/bol/speedup.pdf, page37 used on input line 1209
+.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/cross_height.pdf, id=1953, 1032.71759pt x 1003.75pt>
+<fig/06/bol/cross_height.pdf, id=2238, 1032.71759pt x 1003.75pt>
 File: fig/06/bol/cross_height.pdf Graphic file (type pdf)
 
 <use fig/06/bol/cross_height.pdf>
-Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 878.
+Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 1209.
 (pdftex.def)             Requested size: 199.73653pt x 36.84975pt.
 
-Overfull \vbox (2.55206pt too high) detected at line 878
+Overfull \vbox (2.55206pt too high) detected at line 1209
  []
 
-[53
+[73
 
  <./fig/06/bol/speedup.pdf, page is rotated 270 degrees> <./fig/06/bol/speedup.
 pdf, page is rotated 270 degrees> <./fig/06/bol/speedup.pdf, page is rotated 27
 0 degrees> <./fig/06/bol/speedup.pdf, page is rotated 270 degrees> <./fig/06/bo
 l/cross_height.pdf, page is rotated 90 degrees>]
-<fig/06/bol/delta_tke.pdf, id=1977, page=1, 794.97pt x 614.295pt>
+<fig/06/bol/delta_tke.pdf, id=2263, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol/delta_tke.pdf, page 1>
-Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page1 used on input line 891
-.
+Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page1 used on input line 122
+2.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/delta_tke.pdf, id=1979, page=13, 794.97pt x 614.295pt>
+<fig/06/bol/delta_tke.pdf, id=2265, page=13, 794.97pt x 614.295pt>
 File: fig/06/bol/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol/delta_tke.pdf, page 13>
-Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page13 used on input line 89
-1.
+Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page13 used on input line 12
+22.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/delta_tke.pdf, id=1981, page=25, 794.97pt x 614.295pt>
+<fig/06/bol/delta_tke.pdf, id=2267, page=25, 794.97pt x 614.295pt>
 File: fig/06/bol/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol/delta_tke.pdf, page 25>
-Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page25 used on input line 89
-1.
+Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page25 used on input line 12
+22.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol/delta_tke.pdf, id=1983, page=37, 794.97pt x 614.295pt>
+<fig/06/bol/delta_tke.pdf, id=2269, page=37, 794.97pt x 614.295pt>
 File: fig/06/bol/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol/delta_tke.pdf, page 37>
-Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page37 used on input line 89
-1.
+Package pdftex.def Info: fig/06/bol/delta_tke.pdf, page37 used on input line 12
+22.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 File: fig/06/bol/cross_height.pdf Graphic file (type pdf)
  <use fig/06/bol/cross_height.pdf>
-Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 891.
+Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 1222.
 (pdftex.def)             Requested size: 199.73653pt x 36.52615pt.
 
-Overfull \vbox (2.22847pt too high) detected at line 891
+Overfull \vbox (2.22847pt too high) detected at line 1222
  []
 
-[54
+[74
 
  <./fig/06/bol/delta_tke.pdf, page is rotated 270 degrees> <./fig/06/bol/delta_
 tke.pdf, page is rotated 270 degrees> <./fig/06/bol/delta_tke.pdf, page is rota
 ted 270 degrees> <./fig/06/bol/delta_tke.pdf, page is rotated 270 degrees>]
-<fig/06/bol/V_masts.pdf, id=2002, page=1, 614.295pt x 794.97pt>
+<fig/06/bol/V_masts.pdf, id=2288, page=1, 614.295pt x 794.97pt>
 File: fig/06/bol/V_masts.pdf Graphic file (type pdf)
 
 <use fig/06/bol/V_masts.pdf, page 1>
-Package pdftex.def Info: fig/06/bol/V_masts.pdf, page1 used on input line 901.
+Package pdftex.def Info: fig/06/bol/V_masts.pdf, page1 used on input line 1232.
+
 (pdftex.def)             Requested size: 121.89215pt x 184.3758pt.
 
-<fig/06/bol/k_masts.pdf, id=2004, page=1, 614.295pt x 794.97pt>
+<fig/06/bol/k_masts.pdf, id=2290, page=1, 614.295pt x 794.97pt>
 File: fig/06/bol/k_masts.pdf Graphic file (type pdf)
 
 <use fig/06/bol/k_masts.pdf, page 1>
-Package pdftex.def Info: fig/06/bol/k_masts.pdf, page1 used on input line 901.
+Package pdftex.def Info: fig/06/bol/k_masts.pdf, page1 used on input line 1232.
+
 (pdftex.def)             Requested size: 124.86382pt x 184.3758pt.
 
-Overfull \vbox (9.92462pt too high) detected at line 901
+Overfull \vbox (9.92462pt too high) detected at line 1232
  []
 
-[55
+[75
 
  <./fig/06/bol/V_masts.pdf> <./fig/06/bol/k_masts.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2020, page=1, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2305, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 1>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page1 used on inpu
-t line 916.
+t line 1247.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2022, page=1, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2307, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 1>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page1 used on in
-put line 916.
+put line 1247.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 916--916
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1247--1247
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 916--916
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1247--1247
 [] 
  []
 
-<fig/05/ppt/bol_control_point1.pdf, id=2024, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point1.pdf, id=2309, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point1.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point1.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point1.pdf, page1 used on input
- line 916.
+ line 1247.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [56
+ [76
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point1.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2048, page=2, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2333, page=2, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 2>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page2 used on inpu
-t line 931.
+t line 1262.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2050, page=2, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2335, page=2, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 2>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page2 used on in
-put line 931.
+put line 1262.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 931--931
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1262--1262
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 931--931
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1262--1262
 [] 
  []
 
-<fig/05/ppt/bol_control_point2.pdf, id=2052, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point2.pdf, id=2337, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point2.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point2.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point2.pdf, page1 used on input
- line 931.
+ line 1262.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [57
+ [77
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point2.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2075, page=3, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2360, page=3, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 3>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page3 used on inpu
-t line 946.
+t line 1277.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2077, page=3, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2362, page=3, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 3>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page3 used on in
-put line 946.
+put line 1277.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 946--946
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1277--1277
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 946--946
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1277--1277
 [] 
  []
 
-<fig/05/ppt/bol_control_point3.pdf, id=2079, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point3.pdf, id=2364, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point3.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point3.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point3.pdf, page1 used on input
- line 946.
+ line 1277.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [58
+ [78
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point3.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2102, page=4, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2387, page=4, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 4>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page4 used on inpu
-t line 961.
+t line 1292.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2104, page=4, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2389, page=4, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 4>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page4 used on in
-put line 961.
+put line 1292.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 961--961
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1292--1292
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 961--961
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1292--1292
 [] 
  []
 
-<fig/05/ppt/bol_control_point4.pdf, id=2106, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point4.pdf, id=2391, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point4.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point4.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point4.pdf, page1 used on input
- line 961.
+ line 1292.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [59
+ [79
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point4.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2129, page=5, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2415, page=5, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 5>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page5 used on inpu
-t line 976.
+t line 1307.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2131, page=5, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2417, page=5, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 5>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page5 used on in
-put line 976.
+put line 1307.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 976--976
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1307--1307
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 976--976
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1307--1307
 [] 
  []
 
-<fig/05/ppt/bol_control_point5.pdf, id=2133, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point5.pdf, id=2419, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point5.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point5.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point5.pdf, page1 used on input
- line 976.
+ line 1307.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [60
+ [80
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point5.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2156, page=6, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2442, page=6, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 6>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page6 used on inpu
-t line 991.
+t line 1322.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2158, page=6, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2444, page=6, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 6>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page6 used on in
-put line 991.
+put line 1322.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 991--991
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1322--1322
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 991--991
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1322--1322
 [] 
  []
 
-<fig/05/ppt/bol_control_point6.pdf, id=2160, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point6.pdf, id=2446, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point6.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point6.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point6.pdf, page1 used on input
- line 991.
+ line 1322.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [61
+ [81
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point6.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2184, page=7, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2469, page=7, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 7>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page7 used on inpu
-t line 1006.
+t line 1337.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2186, page=7, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2471, page=7, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 7>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page7 used on in
-put line 1006.
+put line 1337.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1006--1006
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1337--1337
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1006--1006
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1337--1337
 [] 
  []
 
-<fig/05/ppt/bol_control_point7.pdf, id=2188, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point7.pdf, id=2473, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point7.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point7.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point7.pdf, page1 used on input
- line 1006.
+ line 1337.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [62
+ [82
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point7.pdf>]
-<fig/06/bol/ts_interpol_compare.pdf, id=2212, page=8, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare.pdf, id=2497, page=8, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare.pdf, page 8>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare.pdf, page8 used on inpu
-t line 1021.
+t line 1352.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol/ts_interpol_compare_o.pdf, id=2214, page=8, 794.97pt x 614.295pt>
+<fig/06/bol/ts_interpol_compare_o.pdf, id=2499, page=8, 794.97pt x 614.295pt>
 File: fig/06/bol/ts_interpol_compare_o.pdf Graphic file (type pdf)
 
 <use fig/06/bol/ts_interpol_compare_o.pdf, page 8>
 Package pdftex.def Info: fig/06/bol/ts_interpol_compare_o.pdf, page8 used on in
-put line 1021.
+put line 1352.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1021--1021
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1352--1352
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1021--1021
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1352--1352
 [] 
  []
 
-<fig/05/ppt/bol_control_point8.pdf, id=2216, page=1, 614.295pt x 794.97pt>
+<fig/05/ppt/bol_control_point8.pdf, id=2501, page=1, 614.295pt x 794.97pt>
 File: fig/05/ppt/bol_control_point8.pdf Graphic file (type pdf)
 
 <use fig/05/ppt/bol_control_point8.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point8.pdf, page1 used on input
- line 1021.
+ line 1352.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [63
+ [83
 
  <./fig/06/bol/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/06/
 bol/ts_interpol_compare_o.pdf, page is rotated 270 degrees> <./fig/05/ppt/bol_c
 ontrol_point8.pdf>]
-<fig/06/bol/second_order_mean.pdf, id=2239, page=1, 361.35pt x 505.89pt>
+<fig/06/bol/second_order_mean.pdf, id=2524, page=1, 361.35pt x 505.89pt>
 File: fig/06/bol/second_order_mean.pdf Graphic file (type pdf)
 
 <use fig/06/bol/second_order_mean.pdf, page 1>
 Package pdftex.def Info: fig/06/bol/second_order_mean.pdf, page1 used on input 
-line 1044.
+line 1375.
 (pdftex.def)             Requested size: 104.9193pt x 153.64493pt.
 
-<fig/06/bol/second_order_mean.pdf, id=2241, page=2, 361.35pt x 505.89pt>
+<fig/06/bol/second_order_mean.pdf, id=2526, page=2, 361.35pt x 505.89pt>
 File: fig/06/bol/second_order_mean.pdf Graphic file (type pdf)
 
 <use fig/06/bol/second_order_mean.pdf, page 2>
 Package pdftex.def Info: fig/06/bol/second_order_mean.pdf, page2 used on input 
-line 1044.
+line 1375.
 (pdftex.def)             Requested size: 99.58441pt x 153.64493pt.
 
-<fig/06/bol/second_order_mean.pdf, id=2243, page=3, 361.35pt x 505.89pt>
+<fig/06/bol/second_order_mean.pdf, id=2528, page=3, 361.35pt x 505.89pt>
 File: fig/06/bol/second_order_mean.pdf Graphic file (type pdf)
 
 <use fig/06/bol/second_order_mean.pdf, page 3>
 Package pdftex.def Info: fig/06/bol/second_order_mean.pdf, page3 used on input 
-line 1044.
+line 1375.
 (pdftex.def)             Requested size: 99.58441pt x 153.64493pt.
- [64
+ [84
 
  <./fig/06/bol/second_order_mean.pdf> <./fig/06/bol/second_order_mean.pdf> <./f
-ig/06/bol/second_order_mean.pdf>] <fig/06/bol/spectra.pdf, id=2296, page=1, 578
+ig/06/bol/second_order_mean.pdf>] <fig/06/bol/spectra.pdf, id=2581, page=1, 578
 .16pt x 289.08pt>
 File: fig/06/bol/spectra.pdf Graphic file (type pdf)
 
 <use fig/06/bol/spectra.pdf, page 1>
-Package pdftex.def Info: fig/06/bol/spectra.pdf, page1 used on input line 1054.
+Package pdftex.def Info: fig/06/bol/spectra.pdf, page1 used on input line 1385.
 
 (pdftex.def)             Requested size: 338.02072pt x 152.69675pt.
 
-Overfull \hbox (16.50449pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (16.50449pt too wide) in paragraph at lines 1385--1385
  | [] 
  []
 
-[65
+[85
 
  <./fig/06/bol/spectra.pdf>]
-<fig/06/bol/corr.pdf, id=2342, page=1, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2628, page=1, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 1>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page1 used on input line 1067.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page1 used on input line 1398.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol/corr.pdf, id=2344, page=2, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2630, page=2, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 2>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page2 used on input line 1067.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page2 used on input line 1398.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol/corr.pdf, id=2346, page=3, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2632, page=3, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 3>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page3 used on input line 1067.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page3 used on input line 1398.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol/corr.pdf, id=2348, page=4, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2634, page=4, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 4>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page4 used on input line 1067.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page4 used on input line 1398.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-Overfull \vbox (9.39494pt too high) detected at line 1067
+Overfull \vbox (9.39494pt too high) detected at line 1398
  []
 
-[66
+[86
 
  <./fig/06/bol/corr.pdf> <./fig/06/bol/corr.pdf> <./fig/06/bol/corr.pdf> <./fig
 /06/bol/corr.pdf>]
-<fig/06/bol/corr.pdf, id=2422, page=5, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2708, page=5, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 5>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page5 used on input line 1080.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page5 used on input line 1411.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol/corr.pdf, id=2424, page=6, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2710, page=6, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 6>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page6 used on input line 1080.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page6 used on input line 1411.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol/corr.pdf, id=2426, page=7, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2712, page=7, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 7>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page7 used on input line 1080.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page7 used on input line 1411.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol/corr.pdf, id=2428, page=8, 549.25201pt x 505.89pt>
+<fig/06/bol/corr.pdf, id=2714, page=8, 549.25201pt x 505.89pt>
 File: fig/06/bol/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol/corr.pdf, page 8>
-Package pdftex.def Info: fig/06/bol/corr.pdf, page8 used on input line 1080.
+Package pdftex.def Info: fig/06/bol/corr.pdf, page8 used on input line 1411.
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-Overfull \vbox (9.39494pt too high) detected at line 1080
+Overfull \vbox (9.39494pt too high) detected at line 1411
  []
 
-[67
+[87
 
  <./fig/06/bol/corr.pdf> <./fig/06/bol/corr.pdf> <./fig/06/bol/corr.pdf> <./fig
 /06/bol/corr.pdf>]
-<fig/06/bol_da/mean_pbl.pdf, id=2504, 289.08pt x 505.89pt>
+<fig/06/bol_da/mean_pbl.pdf, id=2789, 289.08pt x 505.89pt>
 File: fig/06/bol_da/mean_pbl.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/mean_pbl.pdf>
-Package pdftex.def Info: fig/06/bol_da/mean_pbl.pdf used on input line 1123.
+Package pdftex.def Info: fig/06/bol_da/mean_pbl.pdf used on input line 1454.
 (pdftex.def)             Requested size: 115.23369pt x 195.98677pt.
 
-<fig/06/bol_da/mean_profile.pdf, id=2506, 289.08pt x 505.89pt>
+<fig/06/bol_da/mean_profile.pdf, id=2791, 289.08pt x 505.89pt>
 File: fig/06/bol_da/mean_profile.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/mean_profile.pdf>
-Package pdftex.def Info: fig/06/bol_da/mean_profile.pdf used on input line 1123
+Package pdftex.def Info: fig/06/bol_da/mean_profile.pdf used on input line 1454
 .
 (pdftex.def)             Requested size: 115.23369pt x 195.98677pt.
 
-Overfull \vbox (0.97614pt too high) detected at line 1123
+Overfull \vbox (12.97614pt too high) detected at line 1454
  []
 
-[68
+[88
 
  <./fig/06/bol_da/mean_pbl.pdf> <./fig/06/bol_da/mean_profile.pdf>]
-<fig/06/bol_da/eta1.pdf, id=2572, page=73, 794.97pt x 614.295pt>
+<fig/06/bol_da/eta1.pdf, id=2857, page=73, 794.97pt x 614.295pt>
 File: fig/06/bol_da/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/eta1.pdf, page 73>
-Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page73 used on input line 1148
+Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page73 used on input line 1479
 .
 (pdftex.def)             Requested size: 111.40259pt x 84.50517pt.
 
-<fig/06/bol_da/eta1.pdf, id=2574, page=85, 794.97pt x 614.295pt>
+<fig/06/bol_da/eta1.pdf, id=2859, page=85, 794.97pt x 614.295pt>
 File: fig/06/bol_da/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/eta1.pdf, page 85>
-Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page85 used on input line 1148
+Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page85 used on input line 1479
 .
 (pdftex.def)             Requested size: 113.96475pt x 84.50517pt.
 
-<fig/06/bol_da/eta1.pdf, id=2576, page=97, 794.97pt x 614.295pt>
+<fig/06/bol_da/eta1.pdf, id=2861, page=97, 794.97pt x 614.295pt>
 File: fig/06/bol_da/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/eta1.pdf, page 97>
-Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page97 used on input line 1148
+Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page97 used on input line 1479
 .
 (pdftex.def)             Requested size: 110.11896pt x 87.57872pt.
 
-<fig/06/bol_da/eta1.pdf, id=2578, page=109, 794.97pt x 614.295pt>
+<fig/06/bol_da/eta1.pdf, id=2863, page=109, 794.97pt x 614.295pt>
 File: fig/06/bol_da/eta1.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/eta1.pdf, page 109>
-Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page109 used on input line 114
-8.
+Package pdftex.def Info: fig/06/bol_da/eta1.pdf, page109 used on input line 147
+9.
 (pdftex.def)             Requested size: 112.6516pt x 87.57872pt.
- [69
+ [89
 
  <./fig/06/bol_da/eta1.pdf, page is rotated 270 degrees> <./fig/06/bol_da/eta1.
 pdf, page is rotated 270 degrees> <./fig/06/bol_da/eta1.pdf, page is rotated 27
 0 degrees> <./fig/06/bol_da/eta1.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/1200rot.pdf, id=2595, 1057.9721pt x 1003.75pt>
+<fig/06/bol_da/1200rot.pdf, id=2880, 1057.9721pt x 1003.75pt>
 File: fig/06/bol_da/1200rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/1200rot.pdf>
-Package pdftex.def Info: fig/06/bol_da/1200rot.pdf used on input line 1161.
+Package pdftex.def Info: fig/06/bol_da/1200rot.pdf used on input line 1492.
 (pdftex.def)             Requested size: 245.83282pt x 42.2013pt.
 
-<fig/06/bol_da/1300rot.pdf, id=2597, 1057.9721pt x 1003.75pt>
+<fig/06/bol_da/1300rot.pdf, id=2882, 1057.9721pt x 1003.75pt>
 File: fig/06/bol_da/1300rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/1300rot.pdf>
-Package pdftex.def Info: fig/06/bol_da/1300rot.pdf used on input line 1161.
+Package pdftex.def Info: fig/06/bol_da/1300rot.pdf used on input line 1492.
 (pdftex.def)             Requested size: 245.83282pt x 42.2013pt.
 
-<fig/06/bol_da/1400rot.pdf, id=2599, 1057.9721pt x 1003.75pt>
+<fig/06/bol_da/1400rot.pdf, id=2884, 1057.9721pt x 1003.75pt>
 File: fig/06/bol_da/1400rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/1400rot.pdf>
-Package pdftex.def Info: fig/06/bol_da/1400rot.pdf used on input line 1161.
+Package pdftex.def Info: fig/06/bol_da/1400rot.pdf used on input line 1492.
 (pdftex.def)             Requested size: 245.83282pt x 42.2013pt.
 
-<fig/06/bol_da/1500rot.pdf, id=2601, 1057.9721pt x 1003.75pt>
+<fig/06/bol_da/1500rot.pdf, id=2886, 1057.9721pt x 1003.75pt>
 File: fig/06/bol_da/1500rot.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/1500rot.pdf>
-Package pdftex.def Info: fig/06/bol_da/1500rot.pdf used on input line 1161.
+Package pdftex.def Info: fig/06/bol_da/1500rot.pdf used on input line 1492.
 (pdftex.def)             Requested size: 245.83282pt x 62.93542pt.
 
-Overfull \vbox (4.83813pt too high) detected at line 1161
+Overfull \vbox (4.83813pt too high) detected at line 1492
  []
 
-[70
+[90
 
  <./fig/06/bol_da/1200rot.pdf, page is rotated 90 degrees> <./fig/06/bol_da/130
 0rot.pdf, page is rotated 90 degrees> <./fig/06/bol_da/1400rot.pdf, page is rot
 ated 90 degrees> <./fig/06/bol_da/1500rot.pdf, page is rotated 90 degrees>]
-<fig/06/bol_da/speedup.pdf, id=3063, page=1, 794.97pt x 614.295pt>
+<fig/06/bol_da/speedup.pdf, id=3348, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol_da/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/speedup.pdf, page 1>
-Package pdftex.def Info: fig/06/bol_da/speedup.pdf, page1 used on input line 11
-74.
+Package pdftex.def Info: fig/06/bol_da/speedup.pdf, page1 used on input line 15
+05.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol_da/speedup.pdf, id=3065, page=13, 794.97pt x 614.295pt>
+<fig/06/bol_da/speedup.pdf, id=3350, page=13, 794.97pt x 614.295pt>
 File: fig/06/bol_da/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/speedup.pdf, page 13>
 Package pdftex.def Info: fig/06/bol_da/speedup.pdf, page13 used on input line 1
-174.
+505.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol_da/speedup.pdf, id=3067, page=25, 794.97pt x 614.295pt>
+<fig/06/bol_da/speedup.pdf, id=3352, page=25, 794.97pt x 614.295pt>
 File: fig/06/bol_da/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/speedup.pdf, page 25>
 Package pdftex.def Info: fig/06/bol_da/speedup.pdf, page25 used on input line 1
-174.
+505.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol_da/speedup.pdf, id=3069, page=37, 794.97pt x 614.295pt>
+<fig/06/bol_da/speedup.pdf, id=3354, page=37, 794.97pt x 614.295pt>
 File: fig/06/bol_da/speedup.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/speedup.pdf, page 37>
 Package pdftex.def Info: fig/06/bol_da/speedup.pdf, page37 used on input line 1
-174.
+505.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 File: fig/06/bol/cross_height.pdf Graphic file (type pdf)
  <use fig/06/bol/cross_height.pdf>
-Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 1174.
+Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 1505.
 (pdftex.def)             Requested size: 199.73653pt x 36.84975pt.
 
-Overfull \vbox (2.55206pt too high) detected at line 1174
+Overfull \vbox (2.55206pt too high) detected at line 1505
  []
 
-[71
+[91
 
  <./fig/06/bol_da/speedup.pdf, page is rotated 270 degrees> <./fig/06/bol_da/sp
 eedup.pdf, page is rotated 270 degrees> <./fig/06/bol_da/speedup.pdf, page is r
 otated 270 degrees> <./fig/06/bol_da/speedup.pdf, page is rotated 270 degrees>]
- <fig/06/bol_da/delta_tke.pdf, id=3089, page=1, 794.97pt x 614.295pt>
+ <fig/06/bol_da/delta_tke.pdf, id=3375, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol_da/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/delta_tke.pdf, page 1>
 Package pdftex.def Info: fig/06/bol_da/delta_tke.pdf, page1 used on input line 
-1187.
+1518.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol_da/delta_tke.pdf, id=3091, page=13, 794.97pt x 614.295pt>
+<fig/06/bol_da/delta_tke.pdf, id=3377, page=13, 794.97pt x 614.295pt>
 File: fig/06/bol_da/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/delta_tke.pdf, page 13>
 Package pdftex.def Info: fig/06/bol_da/delta_tke.pdf, page13 used on input line
- 1187.
+ 1518.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol_da/delta_tke.pdf, id=3093, page=25, 794.97pt x 614.295pt>
+<fig/06/bol_da/delta_tke.pdf, id=3379, page=25, 794.97pt x 614.295pt>
 File: fig/06/bol_da/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/delta_tke.pdf, page 25>
 Package pdftex.def Info: fig/06/bol_da/delta_tke.pdf, page25 used on input line
- 1187.
+ 1518.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 
-<fig/06/bol_da/delta_tke.pdf, id=3095, page=37, 794.97pt x 614.295pt>
+<fig/06/bol_da/delta_tke.pdf, id=3381, page=37, 794.97pt x 614.295pt>
 File: fig/06/bol_da/delta_tke.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/delta_tke.pdf, page 37>
 Package pdftex.def Info: fig/06/bol_da/delta_tke.pdf, page37 used on input line
- 1187.
+ 1518.
 (pdftex.def)             Requested size: 199.73653pt x 44.92824pt.
 File: fig/06/bol/cross_height.pdf Graphic file (type pdf)
  <use fig/06/bol/cross_height.pdf>
-Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 1187.
+Package pdftex.def Info: fig/06/bol/cross_height.pdf used on input line 1518.
 (pdftex.def)             Requested size: 199.73653pt x 36.52615pt.
 
-Overfull \vbox (2.22847pt too high) detected at line 1187
+Overfull \vbox (2.22847pt too high) detected at line 1518
  []
 
-[72
+[92
 
  <./fig/06/bol_da/delta_tke.pdf, page is rotated 270 degrees> <./fig/06/bol_da/
 delta_tke.pdf, page is rotated 270 degrees> <./fig/06/bol_da/delta_tke.pdf, pag
 e is rotated 270 degrees> <./fig/06/bol_da/delta_tke.pdf, page is rotated 270 d
-egrees>] <fig/06/bol_da/V_masts.pdf, id=3114, page=1, 614.295pt x 794.97pt>
+egrees>] <fig/06/bol_da/V_masts.pdf, id=3400, page=1, 614.295pt x 794.97pt>
 File: fig/06/bol_da/V_masts.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/V_masts.pdf, page 1>
-Package pdftex.def Info: fig/06/bol_da/V_masts.pdf, page1 used on input line 11
-97.
+Package pdftex.def Info: fig/06/bol_da/V_masts.pdf, page1 used on input line 15
+28.
 (pdftex.def)             Requested size: 121.89215pt x 184.3758pt.
 
-<fig/06/bol_da/k_masts.pdf, id=3116, page=1, 614.295pt x 794.97pt>
+<fig/06/bol_da/k_masts.pdf, id=3402, page=1, 614.295pt x 794.97pt>
 File: fig/06/bol_da/k_masts.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/k_masts.pdf, page 1>
-Package pdftex.def Info: fig/06/bol_da/k_masts.pdf, page1 used on input line 11
-97.
+Package pdftex.def Info: fig/06/bol_da/k_masts.pdf, page1 used on input line 15
+28.
 (pdftex.def)             Requested size: 124.86382pt x 184.3758pt.
 
-Overfull \vbox (9.92462pt too high) detected at line 1197
+Overfull \vbox (9.92462pt too high) detected at line 1528
  []
 
-[73
+[93
 
  <./fig/06/bol_da/V_masts.pdf> <./fig/06/bol_da/k_masts.pdf>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3131, page=1, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3416, page=1, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 1>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page1 used on i
-nput line 1212.
+nput line 1543.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3133, page=1, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3418, page=1, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 1>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page1 used on
- input line 1212.
+ input line 1543.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1212--1212
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1543--1543
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1212--1212
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1543--1543
 [] 
  []
 
 File: fig/05/ppt/bol_control_point1.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point1.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point1.pdf, page1 used on input
- line 1212.
+ line 1543.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [74
+ [94
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3149, page=2, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3434, page=2, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 2>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page2 used on i
-nput line 1227.
+nput line 1558.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3151, page=2, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3436, page=2, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 2>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page2 used on
- input line 1227.
+ input line 1558.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1227--1227
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1558--1558
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1227--1227
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1558--1558
 [] 
  []
 
 File: fig/05/ppt/bol_control_point2.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point2.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point2.pdf, page1 used on input
- line 1227.
+ line 1558.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [75
+ [95
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3167, page=3, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3452, page=3, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 3>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page3 used on i
-nput line 1242.
+nput line 1573.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3169, page=3, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3454, page=3, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 3>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page3 used on
- input line 1242.
+ input line 1573.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1242--1242
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1573--1573
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1242--1242
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1573--1573
 [] 
  []
 
 File: fig/05/ppt/bol_control_point3.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point3.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point3.pdf, page1 used on input
- line 1242.
+ line 1573.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [76
+ [96
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3185, page=4, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3470, page=4, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 4>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page4 used on i
-nput line 1257.
+nput line 1588.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3187, page=4, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3472, page=4, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 4>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page4 used on
- input line 1257.
+ input line 1588.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1257--1257
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1588--1588
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1257--1257
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1588--1588
 [] 
  []
 
 File: fig/05/ppt/bol_control_point4.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point4.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point4.pdf, page1 used on input
- line 1257.
+ line 1588.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [77
+ [97
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3203, page=5, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3489, page=5, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 5>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page5 used on i
-nput line 1272.
+nput line 1603.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3205, page=5, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3491, page=5, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 5>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page5 used on
- input line 1272.
+ input line 1603.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1272--1272
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1603--1603
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1272--1272
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1603--1603
 [] 
  []
 
 File: fig/05/ppt/bol_control_point5.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point5.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point5.pdf, page1 used on input
- line 1272.
+ line 1603.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [78
+ [98
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3221, page=6, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3507, page=6, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 6>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page6 used on i
-nput line 1287.
+nput line 1618.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3223, page=6, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3509, page=6, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 6>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page6 used on
- input line 1287.
+ input line 1618.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1287--1287
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1618--1618
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1287--1287
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1618--1618
 [] 
  []
 
 File: fig/05/ppt/bol_control_point6.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point6.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point6.pdf, page1 used on input
- line 1287.
+ line 1618.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [79
+ [99
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3241, page=7, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3526, page=7, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 7>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page7 used on i
-nput line 1302.
+nput line 1633.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3243, page=7, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3528, page=7, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 7>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page7 used on
- input line 1302.
+ input line 1633.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1633--1633
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1633--1633
 [] 
  []
 
 File: fig/05/ppt/bol_control_point7.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point7.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point7.pdf, page1 used on input
- line 1302.
+ line 1633.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [80
+ [100
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/ts_interpol_compare.pdf, id=3259, page=8, 794.97pt x 614.295pt>
+<fig/06/bol_da/ts_interpol_compare.pdf, id=3544, page=8, 794.97pt x 614.295pt>
 File: fig/06/bol_da/ts_interpol_compare.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/ts_interpol_compare.pdf, page 8>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare.pdf, page8 used on i
-nput line 1317.
+nput line 1648.
 (pdftex.def)             Requested size: 239.68321pt x 89.3149pt.
 
-<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3261, page=8, 794.97pt x 614.295pt
+<fig/06/bol_da/ts_interpol_compare_o.pdf, id=3546, page=8, 794.97pt x 614.295pt
 >
 File: fig/06/bol_da/ts_interpol_compare_o.pdf Graphic file (type pdf)
  <use fig/06/bol_da/ts_interpol_compare_o.pdf, page 8>
 Package pdftex.def Info: fig/06/bol_da/ts_interpol_compare_o.pdf, page8 used on
- input line 1317.
+ input line 1648.
 (pdftex.def)             Requested size: 239.68321pt x 94.90388pt.
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1317--1317
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1648--1648
 [][] 
  []
 
 
-Overfull \hbox (39.94669pt too wide) in paragraph at lines 1317--1317
+Overfull \hbox (39.94669pt too wide) in paragraph at lines 1648--1648
 [] 
  []
 
 File: fig/05/ppt/bol_control_point8.pdf Graphic file (type pdf)
 <use fig/05/ppt/bol_control_point8.pdf, page 1>
 Package pdftex.def Info: fig/05/ppt/bol_control_point8.pdf, page1 used on input
- line 1317.
+ line 1648.
 (pdftex.def)             Requested size: 107.55333pt x 92.31296pt.
- [81
+ [101
 
  <./fig/06/bol_da/ts_interpol_compare.pdf, page is rotated 270 degrees> <./fig/
 06/bol_da/ts_interpol_compare_o.pdf, page is rotated 270 degrees>]
-<fig/06/bol_da/second_order_mean.pdf, id=3277, page=1, 361.35pt x 505.89pt>
+<fig/06/bol_da/second_order_mean.pdf, id=3562, page=1, 361.35pt x 505.89pt>
 File: fig/06/bol_da/second_order_mean.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/second_order_mean.pdf, page 1>
 Package pdftex.def Info: fig/06/bol_da/second_order_mean.pdf, page1 used on inp
-ut line 1340.
+ut line 1671.
 (pdftex.def)             Requested size: 104.9193pt x 153.64493pt.
 
-<fig/06/bol_da/second_order_mean.pdf, id=3279, page=2, 361.35pt x 505.89pt>
+<fig/06/bol_da/second_order_mean.pdf, id=3564, page=2, 361.35pt x 505.89pt>
 File: fig/06/bol_da/second_order_mean.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/second_order_mean.pdf, page 2>
 Package pdftex.def Info: fig/06/bol_da/second_order_mean.pdf, page2 used on inp
-ut line 1340.
+ut line 1671.
 (pdftex.def)             Requested size: 99.58441pt x 153.64493pt.
 
-<fig/06/bol_da/second_order_mean.pdf, id=3281, page=3, 361.35pt x 505.89pt>
+<fig/06/bol_da/second_order_mean.pdf, id=3566, page=3, 361.35pt x 505.89pt>
 File: fig/06/bol_da/second_order_mean.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/second_order_mean.pdf, page 3>
 Package pdftex.def Info: fig/06/bol_da/second_order_mean.pdf, page3 used on inp
-ut line 1340.
+ut line 1671.
 (pdftex.def)             Requested size: 99.58441pt x 153.64493pt.
- [82
+ [102
 
  <./fig/06/bol_da/second_order_mean.pdf> <./fig/06/bol_da/second_order_mean.pdf
 > <./fig/06/bol_da/second_order_mean.pdf>]
-<fig/06/bol_da/spectra.pdf, id=3334, page=1, 578.16pt x 289.08pt>
+<fig/06/bol_da/spectra.pdf, id=3619, page=1, 578.16pt x 289.08pt>
 File: fig/06/bol_da/spectra.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/spectra.pdf, page 1>
-Package pdftex.def Info: fig/06/bol_da/spectra.pdf, page1 used on input line 13
-50.
+Package pdftex.def Info: fig/06/bol_da/spectra.pdf, page1 used on input line 16
+81.
 (pdftex.def)             Requested size: 338.02072pt x 152.69675pt.
 
-Overfull \hbox (16.50449pt too wide) in paragraph at lines 1350--1350
+Overfull \hbox (16.50449pt too wide) in paragraph at lines 1681--1681
  | [] 
  []
 
-[83
+[103
 
  <./fig/06/bol_da/spectra.pdf>]
-<fig/06/bol_da/corr.pdf, id=3380, page=1, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3666, page=1, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 1>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page1 used on input line 1363.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page1 used on input line 1694.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol_da/corr.pdf, id=3382, page=2, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3668, page=2, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 2>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page2 used on input line 1363.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page2 used on input line 1694.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol_da/corr.pdf, id=3384, page=3, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3670, page=3, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 3>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page3 used on input line 1363.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page3 used on input line 1694.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol_da/corr.pdf, id=3386, page=4, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3672, page=4, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 4>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page4 used on input line 1363.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page4 used on input line 1694.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-Overfull \vbox (9.39494pt too high) detected at line 1363
+Overfull \vbox (9.39494pt too high) detected at line 1694
  []
 
-[84
+[104
 
  <./fig/06/bol_da/corr.pdf> <./fig/06/bol_da/corr.pdf> <./fig/06/bol_da/corr.pd
 f> <./fig/06/bol_da/corr.pdf>]
-<fig/06/bol_da/corr.pdf, id=3460, page=5, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3746, page=5, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 5>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page5 used on input line 1376.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page5 used on input line 1707.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol_da/corr.pdf, id=3462, page=6, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3748, page=6, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 6>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page6 used on input line 1376.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page6 used on input line 1707.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol_da/corr.pdf, id=3464, page=7, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3750, page=7, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 7>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page7 used on input line 1376.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page7 used on input line 1707.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-<fig/06/bol_da/corr.pdf, id=3466, page=8, 549.25201pt x 505.89pt>
+<fig/06/bol_da/corr.pdf, id=3752, page=8, 549.25201pt x 505.89pt>
 File: fig/06/bol_da/corr.pdf Graphic file (type pdf)
 
 <use fig/06/bol_da/corr.pdf, page 8>
-Package pdftex.def Info: fig/06/bol_da/corr.pdf, page8 used on input line 1376.
+Package pdftex.def Info: fig/06/bol_da/corr.pdf, page8 used on input line 1707.
 
 (pdftex.def)             Requested size: 122.91406pt x 113.20279pt.
 
-Overfull \vbox (9.39494pt too high) detected at line 1376
+Overfull \vbox (9.39494pt too high) detected at line 1707
  []
 
-[85
+[105
 
  <./fig/06/bol_da/corr.pdf> <./fig/06/bol_da/corr.pdf> <./fig/06/bol_da/corr.pd
-f> <./fig/06/bol_da/corr.pdf>] [86
+f> <./fig/06/bol_da/corr.pdf>] [106
 
-] [87
+] [107
+
+] [108
 
 ]
-<fig/agrad/dtu.png, id=3553, 330.23375pt x 153.57375pt>
+<fig/agrad/dtu.png, id=3843, 330.23375pt x 153.57375pt>
 File: fig/agrad/dtu.png Graphic file (type png)
 
 <use fig/agrad/dtu.png>
-Package pdftex.def Info: fig/agrad/dtu.png used on input line 1439.
+Package pdftex.def Info: fig/agrad/dtu.png used on input line 1791.
 (pdftex.def)             Requested size: 138.2795pt x 64.30836pt.
- <fig/agrad/dgiip.png, id=3554, 72.27pt x 72.27pt>
+ <fig/agrad/dgiip.png, id=3844, 72.27pt x 72.27pt>
 File: fig/agrad/dgiip.png Graphic file (type png)
 
 <use fig/agrad/dgiip.png>
-Package pdftex.def Info: fig/agrad/dgiip.png used on input line 1439.
+Package pdftex.def Info: fig/agrad/dgiip.png used on input line 1791.
 (pdftex.def)             Requested size: 92.18788pt x 92.19318pt.
 
-<fig/agrad/conicyt.jpg, id=3555, 549.9747pt x 170.7981pt>
+<fig/agrad/conicyt.jpg, id=3845, 549.9747pt x 170.7981pt>
 File: fig/agrad/conicyt.jpg Graphic file (type jpg)
 
 <use fig/agrad/conicyt.jpg>
-Package pdftex.def Info: fig/agrad/conicyt.jpg used on input line 1439.
+Package pdftex.def Info: fig/agrad/conicyt.jpg used on input line 1791.
 (pdftex.def)             Requested size: 215.10196pt x 66.80122pt.
- [88
+ [109
 
  <./fig/agrad/dtu.png> <./fig/agrad/dgiip.png> <./fig/agrad/conicyt.jpg>]
 File: utfsm_logo.pdf Graphic file (type pdf)
  <use utfsm_logo.pdf>
-Package pdftex.def Info: utfsm_logo.pdf used on input line 1446.
+Package pdftex.def Info: utfsm_logo.pdf used on input line 1798.
 (pdftex.def)             Requested size: 58.59465pt x 42.67912pt.
-Package atenddvi Info: Last page = 89.
- [89
+ [110
+
+]
+<fig/an1/bolund1.pdf, id=3859, 441.01764pt x 668.64006pt>
+File: fig/an1/bolund1.pdf Graphic file (type pdf)
+
+<use fig/an1/bolund1.pdf>
+Package pdftex.def Info: fig/an1/bolund1.pdf used on input line 1807.
+(pdftex.def)             Requested size: 261.19826pt x 174.13503pt.
+ [111
+
+ <./fig/an1/bolund1.pdf>] [112
+
+]
+<fig/an1/bolund2.pdf, id=3905, 441.01764pt x 668.64006pt>
+File: fig/an1/bolund2.pdf Graphic file (type pdf)
+
+<use fig/an1/bolund2.pdf>
+Package pdftex.def Info: fig/an1/bolund2.pdf used on input line 1828.
+(pdftex.def)             Requested size: 276.559pt x 197.23839pt.
+ [113
+
+ <./fig/an1/bolund2.pdf>]
+<fig/an1/bolund3.pdf, id=3957, 441.01764pt x 668.64006pt>
+File: fig/an1/bolund3.pdf Graphic file (type pdf)
+
+<use fig/an1/bolund3.pdf>
+Package pdftex.def Info: fig/an1/bolund3.pdf used on input line 1837.
+(pdftex.def)             Requested size: 307.28987pt x 200.16507pt.
+ [114
+
+ <./fig/an1/bolund3.pdf>]
+File: fig/an1/bolund3.pdf Graphic file (type pdf)
+
+<use fig/an1/bolund3.pdf>
+Package pdftex.def Info: fig/an1/bolund3.pdf used on input line 1846.
+(pdftex.def)             Requested size: 307.28987pt x 202.98404pt.
+ [115
+
+]
+<fig/an1/bolund4.pdf, id=4023, 441.01764pt x 668.64006pt>
+File: fig/an1/bolund4.pdf Graphic file (type pdf)
+
+<use fig/an1/bolund4.pdf>
+Package pdftex.def Info: fig/an1/bolund4.pdf used on input line 1855.
+(pdftex.def)             Requested size: 307.28987pt x 217.46909pt.
+
+Overfull \vbox (4.57246pt too high) detected at line 1855
+ []
+
+[116
+
+ <./fig/an1/bolund4.pdf>]
+File: fig/an1/bolund4.pdf Graphic file (type pdf)
+ <use fig/an1/bolund4.pdf>
+Package pdftex.def Info: fig/an1/bolund4.pdf used on input line 1864.
+(pdftex.def)             Requested size: 307.28987pt x 202.98404pt.
+ [117
+
+]
+<fig/an1/bolund5.pdf, id=4082, 441.01764pt x 668.64006pt>
+File: fig/an1/bolund5.pdf Graphic file (type pdf)
+
+<use fig/an1/bolund5.pdf>
+Package pdftex.def Info: fig/an1/bolund5.pdf used on input line 1873.
+(pdftex.def)             Requested size: 307.28987pt x 202.98404pt.
+ [118
+
+ <./fig/an1/bolund5.pdf>]
+<fig/05/hov_domain.pdf, id=4135, page=1, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 1>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page1 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4137, page=2, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 2>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page2 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4139, page=3, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 3>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page3 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4141, page=4, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 4>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page4 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4143, page=5, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 5>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page5 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4145, page=6, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 6>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page6 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4147, page=7, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 7>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page7 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4149, page=8, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 8>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page8 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4151, page=9, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 9>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page9 used on input line 1898.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4153, page=10, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 10>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page10 used on input line 1898.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4155, page=11, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 11>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page11 used on input line 1898.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4157, page=12, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 12>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page12 used on input line 1898.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+ [119
+
+ <./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> 
+<./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> <
+./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> <.
+/fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf>]
+<fig/05/hov_domain.pdf, id=4202, page=13, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 13>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page13 used on input line 1910.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/hov_domain.pdf, id=4204, page=14, 614.295pt x 794.97pt>
+File: fig/05/hov_domain.pdf Graphic file (type pdf)
+
+<use fig/05/hov_domain.pdf, page 14>
+Package pdftex.def Info: fig/05/hov_domain.pdf, page14 used on input line 1910.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+ [120
+
+ <./fig/05/hov_domain.pdf> <./fig/05/hov_domain.pdf>] <fig/05/bol_domain.pdf, i
+d=4219, page=1, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 1>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page1 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4221, page=2, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 2>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page2 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4223, page=3, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 3>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page3 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4225, page=4, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 4>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page4 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4227, page=5, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 5>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page5 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4229, page=6, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 6>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page6 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4231, page=7, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 7>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page7 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4233, page=8, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 8>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page8 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4235, page=9, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 9>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page9 used on input line 1935.
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4237, page=10, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 10>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page10 used on input line 1935.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4239, page=11, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 11>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page11 used on input line 1935.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4241, page=12, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 12>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page12 used on input line 1935.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+ [121
+
+ <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> 
+<./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <
+./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <.
+/fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf>]
+<fig/05/bol_domain.pdf, id=4287, page=13, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 13>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page13 used on input line 1950.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4289, page=14, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 14>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page14 used on input line 1950.
+
+(pdftex.def)             Requested size: 76.82246pt x 74.13298pt.
+
+<fig/05/bol_domain.pdf, id=4291, page=15, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 15>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page15 used on input line 1950.
+
+(pdftex.def)             Requested size: 76.82246pt x 66.92842pt.
+
+<fig/05/bol_domain.pdf, id=4293, page=16, 614.295pt x 794.97pt>
+File: fig/05/bol_domain.pdf Graphic file (type pdf)
+
+<use fig/05/bol_domain.pdf, page 16>
+Package pdftex.def Info: fig/05/bol_domain.pdf, page16 used on input line 1950.
+
+(pdftex.def)             Requested size: 76.82246pt x 66.92842pt.
+ [122
+
+ <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> <./fig/05/bol_domain.pdf> 
+<./fig/05/bol_domain.pdf>] [123
+
+]
+File: utfsm_logo.pdf Graphic file (type pdf)
+
+<use utfsm_logo.pdf>
+Package pdftex.def Info: utfsm_logo.pdf used on input line 1991.
+(pdftex.def)             Requested size: 58.59465pt x 42.67912pt.
+Package atenddvi Info: Last page = 124.
+ [124
 
 ]
 \tf@nav=\write6
@@ -3256,53 +3693,60 @@ Package atenddvi Info: Last page = 89.
 \tf@snm=\write8
 \openout8 = `pcz_tesis_ppt.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1448.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1448.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1993.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1993.
  (./pcz_tesis_ppt.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1448.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1448.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1993.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1993.
 
 Package rerunfilecheck Info: File `pcz_tesis_ppt.out' has not changed.
 (rerunfilecheck)             Checksum: 36765E4EF27A3DC114F0652DE7426326;418.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+(Font)              up to 4.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1448.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1993.
  ) 
 Here is how much of TeX's memory you used:
- 27746 strings out of 493029
- 532239 string characters out of 6136233
- 589800 words of memory out of 5000000
- 30426 multiletter control sequences out of 15000+600000
- 22684 words of font info for 83 fonts, out of 8000000 for 9000
+ 28122 strings out of 493029
+ 538779 string characters out of 6136233
+ 592147 words of memory out of 5000000
+ 30687 multiletter control sequences out of 15000+600000
+ 28248 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,51p,10416b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/euler/euex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eul
-er/eurm5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/e
-urm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pf
-b>
-Output written on pcz_tesis_ppt.pdf (89 pages, 51978344 bytes).
+ 48i,16n,51p,10416b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/euler/eurm5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam7.pfb>
+Output written on pcz_tesis_ppt.pdf (124 pages, 57518736 bytes).
 PDF statistics:
- 3679 PDF objects out of 4296 (max. 8388607)
- 1969 compressed objects within 20 object streams
- 259 named destinations out of 1000 (max. 500000)
- 1894 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4473 PDF objects out of 5155 (max. 8388607)
+ 2503 compressed objects within 26 object streams
+ 358 named destinations out of 1000 (max. 500000)
+ 2357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

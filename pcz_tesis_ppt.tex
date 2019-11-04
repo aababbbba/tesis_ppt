@@ -35,7 +35,7 @@
   	 Evaluador Externo:& Ph.D. Ricardo Muñoz Magnino \\
   \end{tabular}
  }
-\date{\footnotesize Agosto, 2019}
+\date{\footnotesize Octubre, 2019}
 \AtBeginSubsection[]
 {
   \begin{frame}<beamer>{Outline}
@@ -250,8 +250,8 @@
 		\item Para la Capa Límite Planetaria (CLP) se tienen 3 casos:
 		\begin{enumerate}[a.]
 			\item DA en CLP para mesoescala: Mejoras de hasta un 30\% en el error.\footnote{Cheng et al. (2017) y Dumais et al. (2013)}
-			\item DA con datos superficiales: Mejoras en los resultados debido al cálculo de flujos turbulentos. No para terreno complejo.
-			\item DA en CLP para microescala: No existe literatura.
+			\item DA con datos superficiales: Mejoras en los resultados debido al cálculo de flujos turbulentos\footnote{Stauffer et al. (1991) y Reen y Stauffer (2010)}. No para terreno complejo.
+			\item \textcolor{red}{DA en CLP para microescala: No existe literatura.}
 		\end{enumerate}
 	\end{itemize}
 \end{frame}
@@ -291,9 +291,10 @@
 	\be p = f(\rho,T) \ee
 \end{frame}
 %
+
 \begin{frame}{Marco Teórico}{Ecuaciones de Dinámica Atmosférica}
-Ecuaciones Primitivas:
-\small
+	Ecuaciones Primitivas:
+	\small
 	\begin{align}
 	d_t u &= \frac{uv\tan\psi}{a}-\frac{uw}{a}-\frac{1}{\rho}\partial_x p - 2\Omega_e(w\cos\psi - v\sin\psi) + F_{rx}\\
 	d_t v &= -\frac{u^2\tan\psi}{a}-\frac{uw}{a}-\frac{1}{\rho}\partial_y p - 2\Omega_e u\sin\psi + F_{ry}\\
@@ -303,20 +304,223 @@ Ecuaciones Primitivas:
 	d_t q_v &= Q_v\label{03_eq:humedad}\\
 	p &= \rho R T.
 	\end{align}
-\normalsize
+	\normalsize
 \end{frame}
 
+\begin{frame}{Marco Teórico}{Ecuaciones de Dinámica Atmosférica}
+	Algunas definiciones nuevas:
+	\begin{itemize}
+		\item Temperatura Potencial:
+		\be \theta = T\left( \frac{p_s}{p} \right)^{R/C_p} \ee
+		\item Temperatura Potencial Virtual:
+		\be \theta_v = \theta(1+0.61q_v) \ee
+		\item Criterios de Estabilidad:
+		\begin{align}
+		d_z \theta_v &> 0\quad;\quad\text{Estable}\label{eq:03_esta1}\\
+		d_z \theta_v &= 0\quad;\quad\text{Neutra} \label{eq:03_esta2}\\
+		d_z \theta_v &< 0\quad;\quad\text{Inestable} \label{eq:03_esta3}
+		\end{align}
+	\end{itemize}
+\end{frame}
+%
 
 
+\begin{frame}{Marco Teórico}{Turbulencia}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\linewidth,trim={4.3cm 7.7cm 4cm 11.5cm},clip]{fig/03/turbulent}
+		\caption{Serie de tiempo para una componente de la velocidad en un flujo turbulento. Fuente: Pope (2000).}
+		\label{fig:03_turbulent}
+	\end{figure}
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Turbulencia}
+	\begin{itemize}
+		\item Descomposición de Reynolds:
+		\be u_i = \overline{u}_i + u'_i. \ee
+		\item Ecuación de N-S promediada:
+		\be
+		(\partial_t \overline{u}_i + \overline{u}_j\partial_j \overline{u}_i)= \nu\partial_{jj}\overline{u}_i -\frac{1}{\rho}\partial_i \overline{p} - \partial_i(\overline{u'_iu'_j}).
+		\ee
+		\item Energía cinética turbulenta:
+		\be k=\frac{1}{2}\overline{u'_i u'_i}. \ee
+	\end{itemize}
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Turbulencia}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.75\linewidth,trim={3.2cm 18.3cm 7.0cm 1.5cm},clip]{fig/03/spectra}
+		\caption{Gráfico típico log-log de distribución de energía cinética turbulenta con respecto al número de onda $\kappa$ para un flujo con un número de Reynolds elevado. Fuente: Mathieu y Scott (2000).}
+		\label{fig:03_spectra}
+	\end{figure}
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.98\linewidth,trim={0cm 0cm 0cm 0cm},clip]{fig/03/abl}
+		\caption{Evolución diurna de la estructura de la capa límite. Fuente: Wikimedia.}
+		\label{fig:03_abl}
+	\end{figure}
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+	Principales características de la CLA:
+	\begin{itemize}
+		\item La humanidad gasta la mayoría de su vida dentro de la ABL.
+		\item Los pronósticos del clima son en verdad pronósticos de la capa límite.
+		\item La polución queda atrapada en la ABL.
+		\item La neblina es creada en la ABL.
+		\item La fuente principal de energía para toda la atmósfera es la radiación solar, la cual, en su mayoría es absorbida por el suelo y transmitida al resto de la atmósfera por los procesos de capa límite.
+		\item Cerca de un 50\% de la energía cinética de la atmósfera es disipada en la capa límite.
+		\item El transporte turbulento de momentum desde la capa límite a la superficie es el sumidero más grande de momentum de la atmósfera.
+		\item Las turbinas eólicas extraen energía de los vientos de la ABL.
+	\end{itemize}
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\linewidth,trim={5.6cm 14cm 2.7cm 3.3cm},clip]{fig/03/pbl2}
+		\caption{Evolución del perfil de $\theta_v$ en el ciclo diurno. Fuente: Stull (1988).}
+		\label{fig:03_pbl2}
+	\end{figure}
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+Definimos nuevas variables relevantes:
+	\begin{itemize}
+		\item Esfuerzo (turbulento) Superficial:
+		\be 
+		\tau^r_{xz,s} = - \rho (\overline{w'u'})_s
+		\ee
+		\item Velocidad de Fricción:
+		\be u_* = \sqrt{\frac{\tau^r_{xz,s}}{\rho}} \ee
+	\end{itemize}
+Se debe encontrar una clausura para $\tau^r_{xz}$. Existen varios métodos: Arrastre aerodinámico, teoría gradiente, \textbf{teoría de similaridad de Monin-Obukhov}.
+\end{frame}
 
+\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+	Teoría de Similaridad M-O:
+	\be \label{eq:03_simi_u}
+	{\phi_m} = \frac{\kappa z}{u_*}\frac{\partial |V_h|}{\partial z}
+	\ee
+	\be 
+	\phi_m = \begin{cases}
+		1+\beta_m \frac{z}{L} & \frac{z}{L}>0  \quad\text{Estable}\\
+		(1-\gamma_m \frac{z}{L})^{-1/4} & \frac{z}{L}<0 \quad \text{Inestable}\\
+		\textcolor{red}{1} & \textcolor{red}{\frac{z}{L}=0  \quad \text{Neutral}}
+	\end{cases}
+	\ee 
+	$\beta_m$, $\gamma_m$ son funciones del valor de $\kappa$ ($\approx0.4$).
+	
+	Para estratificación neutra se puede integrar y obtener la \emph{log-law}:
+	\be |\overline{V}_h(z)| = \frac{u_*}{\kappa}\ln\frac{z}{z_{0,m}} \ee
+	
+\end{frame}
 
+%\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+%	Ecuación de transporte para la TKE:
+%	\be
+%	\partial_t k  = \frac{g}{\overline{\theta}_v}\overline{w'\theta'_v} - \overline{u' w'} \partial_z \overline{u} - \partial_z\overline{w' k} - \frac{1}{\rho} \partial_z \overline{w' p'} - \varepsilon.
+%	\ee
+%	\vspace{-5mm}
+%	\begin{equation*}
+%	\hspace{0cm}I \quad\qquad II\quad\qquad III\qquad\qquad IV\quad\qquad V\quad\qquad VI
+%	\end{equation*}
+%	El significado físico de cada término es:
+%	\begin{enumerate}
+%		\item[I.] Tasa de acumulación local o tendencia de TKE.
+%		\item[II.] Producción o consumo debido a flotación.
+%		\item[III.] Producción mecánica por cortante.
+%		\item[IV.] Transporte turbulento de TKE.
+%		\item[V.] Correlación de presión.
+%		\item[VI.] Disipación de TKE.
+%	\end{enumerate}
+%\end{frame}
 
+%\begin{frame}{Marco Teórico}{Fundamentos de CLA}
+%	\begin{figure}[h!]
+%		\centering
+%		\includegraphics[width=0.9\linewidth,trim={3cm 5.5cm 2.9cm 11.6cm},clip]{fig/03/tke3}
+%		\caption{Variación espacial y temporal de TKE modelada. Fuente: Stull (1988).}
+%		\label{fig:03_tke3}
+%	\end{figure}
+%\end{frame}
+
+\begin{frame}{Marco Teórico}{Simulación de Grandes Vórtices}
+	Permite filtrar las pequeñas escalas de las grandes escalas a través de un operador de filtro:
+	\begin{equation}
+	\overline{u}(x_i,t) = \int G(r_i,x_j) u(x_j-r_i,t)dr_i
+	\end{equation}
+	Definimos una magnitud residual de la forma:
+	\begin{equation}
+	u' = u - \overline{u}.
+	\end{equation}
+\end{frame}
+
+\begin{frame}{Marco Teórico}{Simulación de Grandes Vórtices}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\linewidth,trim={4.8cm 4.8cm 2.8cm 12.1cm},clip]{fig/03/les}
+		\caption{Curva superior: una muestra de un campo de velocidad $u$ y su correspondiente campo filtrado $\overline{u}$ (en negrita). Curva inferior: campo residual $u'$ y campo residual filtrado $\overline{u'}$ (en negrita). Fuente: Pope (2000).}
+		\label{fig:03_les}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Marco Teórico}{Simulación de Grandes Vórtices}
+	Aplicando el filtro a las ecuaciones de N-S se obtiene el esfuerzo residual:
+	\be \tau_{ij}^R \equiv \overline{u_j u_i} - \overline{u}_j \overline{u}_i \ee
+	y su esfuerzo anisotrópico asociado es:
+	\be \tau_{ij}^r = \tau_{ij}^R - \frac{2}{3}k_r \delta_{ij} \ee
+	Este último se debe modelar.
+\end{frame}
+
+\begin{frame}{Marco Teórico}{Simulación de Grandes Vórtices}
+	El esfuerzo $\tau_{ij}^r$ se puede modelar de diversas formas. Para esta tesis se modela utilizando el modelo 1.5TKE de Deardorff (1974):
+	\begin{itemize}
+		\item Se plantea una ecuación de transporte para la TKE residual $k_r$.
+		\item La disipación se modela a través de:
+		\be \varepsilon_r = \frac{C_E k_r^{3/2}}{\Delta} \ee
+		\item Es esfuerzo se computa a través de una viscosidad turbulenta de la forma:
+		\be \tau_{ij}^r = -2\nu_t \overline{S}_{ij} \ee
+		\be \nu_t = C_\nu k_r^{1/2}\Delta \ee
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Marco Teórico}{Asimilación de Datos}
+	\textbf{Objetivo}: Hallar la mejor estimación del estado de la atmósfera combinando observaciones y resultados de un modelo.
+	\begin{itemize}
+		\item $x_a:$ Análisis (resultado del DA).
+		\item $x_b:$ Background (del modelo numérico).
+		\item $y:$ Observaciones (de la instrumentación).
+	\end{itemize}
+	De manera general se tiene:
+	\begin{equation}
+	\textbf{x}_a = \textbf{x}_b + \delta \textbf{x}
+	\end{equation}
+	\begin{equation}\label{eq:03_dataassim1}
+	\textbf{x}_a = \textbf{x}_b + \textbf{K}(\textbf{y} - H(\textbf{x}_b))
+	\end{equation}
+	$\textbf{K}$ es la matriz de peso del proceso y $H(\textbf{x})$ es el operador de observación.
+\end{frame}
+
+\begin{frame}{Marco Teórico}{Asimilación de Datos: Análisis Variacional Tridimensional}
+	En la práctica, el análisis se encuentra minimizando una función de costo:
+	\be \small
+	J(x) = J_b + J_o = \frac{1}{2}(\textbf{x}-\textbf{x}_b)^T \textbf{B}^{-1}(\textbf{x}-\textbf{x}_b) + \frac{1}{2}(H(\textbf{x})-\textbf{y})^T \textbf{R}^{-1}(H(\textbf{x})-\textbf{y})
+	\ee
+	De manera referencial, la solución se escribe:
+	\be 
+	\nabla J(x) = \textbf{B}^{-1}(\textbf{x}-\textbf{x}_b)-H^T\textbf{R}^{-1}(\textbf{y}-H(\textbf{x}))=0
+	\ee
+	El análisis es entonces:
+	\be \label{eq:03_dataassim}
+	\textbf{x}_a = \textbf{x}_b + \textbf{B}H^T(H\textbf{B}H^T+\textbf{R})^{-1}(\textbf{y}-H(\textbf{x}_b))
+	\ee
+	Como esto es costoso, la minimización se hace a través de un método numérico como un método de Newton o el gradiente conjugado.
+\end{frame}
 
 
 
@@ -325,12 +529,100 @@ Ecuaciones Primitivas:
 
 %WRF
 \section{5. Modelo WRF}
-\begin{frame}{Modelo WRF}
+\begin{frame}{Modelo WRF}{Aspectos Generales}
+	El WRF-ARW es un modelo atmosférico de mesoescala no hidrostático que resuelve las ecuaciones de Euler para flujo compresible en su forma conservativa y utilizando una coordenada vertical de presión.
+	
+	Algunas características relevantes:
+	\begin{itemize}
+		\item Discretización espacial con malla escalonada, constante en la horizontal y variable en la vertical.
+		\item Discretización temporal a través de RK3.
+		\item Un filtro separa las ondas de alta frecuencia de las de baja frecuencia. Las ondas de alta frecuencia se integran en un paso de tiempo intermedio para asegurar estabilidad.
+		\item Condiciones de borde reales e ideales.
+		\item Anidamiento de dominios.
+		\item Opciones de advección de hasta 6to orden.
+		\item Físicas incluidas: Capa superficial, CLP, radiación, microfísicas y cúmulos.
+	
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Modelo WRF}{Coordenada Vertical}
+	\begin{figure}[h!]
+		\begin{minipage}{0.55\linewidth}
+			\centering
+			\includegraphics[width=0.95\linewidth,trim={11.5cm 3.3cm 1cm 14cm},clip]{fig/04/eta}
+			\caption{Estructura de la coordenada vertical. Fuente: Shamarock et al. (2008).}
+			\label{fig:04_eta}
+		\end{minipage}%
+		\begin{minipage}{0.45\linewidth}
+			Se define $\eta$ como:
+			\[ \eta = \frac{p_{dh}-p_{dht}}{\mu_d} = \frac{p_{dh}-p_{dht}}{p_{dhs}-p_{dht}} \]
+			$\mu_d:$ Peso de la columna de aire.
+			
+			\bigskip
+			\bigskip
+			
+			El modelo resuelve:\\
+			\[(u,v,w,\mu_d,\phi, \theta,p,\alpha,k)\]
+		\end{minipage}%
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Modelo WRF}{Ecuaciones Resueltas}
+	\small
+	\begin{equation}\begin{split}\label{eq:04_wrf1}
+	&\partial_t U + m_x[\partial_x(Uu)+\partial_y(Vu)]+\partial_\eta(\Omega u) \\
+	&+ (m_x/m_y)(\alpha/\alpha_d)[\mu_d(\partial_x\phi' + \alpha_d \partial_x p' + \alpha_d'\partial_x \overline p)+\partial_x\phi(\partial_\eta p' - \mu_d')] = F_U
+	\end{split}\end{equation}
+	\begin{equation}\begin{split}
+	&\partial_t V + m_y[\partial_x(Uv)+\partial_y(Vv)]+(m_y/m_x)\partial_\eta(\Omega v) \\
+	&+ (m_y/m_x)(\alpha/\alpha_d)[\mu_d(\partial_y\phi' + \alpha_d \partial_y p' + \alpha_d'\partial_y \overline p)+\partial_y\phi(\partial_\eta p' - \mu_d')] = F_V
+	\end{split}\end{equation}
+	\begin{equation}\begin{split}
+	\partial_t W + m_x[\partial_x(&Uw)+\partial_y(Vw)]+\partial_\eta(\Omega w) \\
+	\hspace{1cm}&- m_y^{-1}g(\alpha/\alpha_d)[\partial_\eta p' - \overline{\mu}_d(q_v+q_c+q_r)]+m_y^{-1}\mu_d' g = F_W
+	\end{split}\end{equation}
+	\begin{equation}\begin{split}
+	\partial_t \mu_d' + m_x m_y[\partial_x U + \partial_y V] + m_y\partial_\eta \Omega = 0
+	\end{split}\end{equation}
+	\begin{equation}\begin{split}
+	\partial_t \phi' + \mu_d^{-1}[m_x m_y(U\partial_x\phi + V\partial_y\phi) + m_y \Omega \partial_\eta\phi - m_ygW] = 0
+	\end{split}\end{equation}
+	\begin{equation}\begin{split}\label{eq:04_wrf2}
+	\partial_t \Theta + m_x m_y [\partial_x(U\theta)+\partial_y(V\theta)]+m_y\partial_\eta(\Omega \theta) = F_\Theta
+	\end{split}\end{equation}
 \end{frame}
 
 
+\begin{frame}{Modelo WRF}{Modelación de la Turbulencia}
+	Dentro del modelo el tensor de esfuerzos turbulentos es:
+	\be \tau_{ij}=-\mu_d K_{h,v}S_{ij} \ee
+	La manera de computar $K_{h,v}$ va a depender de la escala espacial en la que estemos (parametrización/LES).
+	\bigskip
+	
+	Para la mesoescala:
+	\begin{align}
+	K_h &= C_s^2 l^2[0.25(S_{11}-S_{22})^2+S_{12}]^{0.5}\\
+	K_v &= f(PBL)
+	\end{align}
+\end{frame}
 
-
+\begin{frame}{Modelo WRF}{Modelación de la Turbulencia}
+	
+	Para la microescala (LES):
+	\begin{equation}K_{h,v}=C_k l_{h,v}\sqrt{k}.\end{equation}
+	$C_k$ es la constante del modelo y $l_{h,v}$ es un largo característico.
+	
+	La ecuación de transporte para $k$:
+	\begin{equation}
+	\partial_t(\mu_d k) + (\nabla\cdot\vec{V}k)_\eta = \mu_d(\mathcal{P} + \mathcal{F} + \mathcal{D}).
+	\end{equation}
+	El RHS corresponde a la producción mecánica, producción por flotación y disipación de $k$.
+	\begin{align}
+	\mathcal{P}&= K_h (S_{11}^2 + S_{22}^2 + S_{12}^2) + K_v (S_{33}^2 + S_{13}^2 + S_{23}^2),\\
+	\mathcal{F}&=-K_v N^2,\\
+	\mathcal{D}&=-\frac{C k^{3/2}}{l_k},
+	\end{align}
+\end{frame}
 
 
 
@@ -343,7 +635,7 @@ Ecuaciones Primitivas:
 	\begin{figure}[h!]
 		\centering
 		%\vspace{0.2cm}
-		\includegraphics[width=1\linewidth,clip]{tesis_experimentos}
+		\includegraphics[width=1\linewidth,clip]{tesis_experimentos}%
 		\caption{Diagrama de experimentos realizados.}
 	\end{figure}
 \end{frame}
@@ -586,6 +878,44 @@ Ecuaciones Primitivas:
 \end{frame}
 
 \begin{frame}{Metodología}{Configuración de la Asimilación de Datos}
+	\begin{table}[h!]
+		\caption{Características del proceso de DA en Høvsøre.}\label{tab:05_config_da_hov}
+		\centering\footnotesize
+		\begin{tabular}{lcc}
+			\toprule
+			Parámetro & Selección \\
+			\midrule
+			Hora Inicio	DA 	 & 06:00:00   \\
+			Hora Término DA	 		 & 12:00:00  \\
+			Intervalo de DA	&	10 [min] \\
+			Puntos a Anidar	 	 & 1   \\
+			Alturas 	& 10m, 40m, 60m, 80m, 100m \\
+			Variables	& $u,v$   \\
+			Lat. Mástil	& 56.440582   \\
+			Lon. Mástil	& 8.150896   \\
+			
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\begin{table}[H]
+		\caption{Detalle de la asimilación en cada mástil en Bolund.}\label{tab:05_mast_da_bol}
+		\vspace{-4mm}
+		\centering\footnotesize\resizebox{\textwidth}{!}{
+			\begin{tabular}{lcccccccc}
+				\toprule
+				& M1	&	M2	&	M3	&	M4	&	M5	&	M6 &	M7	& M8\\
+				\midrule
+				Latitud		 	& 55.70332 & 55.70340 & 55.70360 & 55.70386 & 55.70315 & 55.70360 & 55.70360 & 55.70360 \\
+				Longitud	    & 12.09760 & 12.09787 & 12.09850 & 12.09927 & 12.09848 & 12.09770 & 12.09735 & 12.09992 \\
+				Alturas			& 2, 5, 9m & 2, 5m & 2, 5m & 2, 5, 9m & 2, 5m & 2, 5m & 2, 5m & 2, 5m \\
+				
+				\bottomrule
+			\end{tabular}}
+		\end{table}
+\end{frame}
+
+\begin{frame}{Metodología}{Configuración de la Asimilación de Datos}
 	\begin{figure}[H]
 		\centering
 		\begin{minipage}{0.5\linewidth}
@@ -632,7 +962,7 @@ Ecuaciones Primitivas:
 			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0cm},clip]{fig/06/hov/temp_profile}%
 		\end{minipage}%
 		
-		\caption{Perfil de temperatura potencial virtual en Høvsøre.}
+		\caption{Perfil de temperatura potencial virtual en Høvsøre ($\delta \approx 750$ [m]).}
 		\label{fig:06_hov_pbl}
 	\end{figure}
 \end{frame}
@@ -776,16 +1106,17 @@ Ecuaciones Primitivas:
 \end{frame}
 
 \begin{frame}{Resultados}{Caso I: Høvsøre - Síntesis}
-	\begin{minipage}{0.5\linewidth}
+	%\begin{minipage}{0.5\linewidth}
 		Observaciones relevantes:
 		\begin{itemize}
-			\item aaa
-			\item bbb
-			\item ccc
-			\item ddd
+			\item Los resultados con Peña validan la metodología.
+			\item El LES funciona de buena manera.
+			\item El modelo es muy difusivo en los primeros niveles.
+			\item Las variables de 2do orden se comportan según lo esperado, salvo $\Phi_M$.
+			\item La asimilación de datos presenta mejoras en los estadísticos.
 		\end{itemize}
-	\end{minipage}%
-	\begin{minipage}{0.5\linewidth}
+	%\end{minipage}%
+	%\begin{minipage}{0.5\linewidth}
 		\begin{table}[H]
 			\caption{Comparación de métricas para el caso I Høvsøre.}
 			\label{tab:06_hov_mae_rmse}
@@ -802,7 +1133,7 @@ Ecuaciones Primitivas:
 				\bottomrule
 			\end{tabular}
 		\end{table}
-	\end{minipage}%
+	%\end{minipage}%
 \end{frame}
 
 
@@ -821,7 +1152,7 @@ Ecuaciones Primitivas:
 			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0cm},clip]{fig/06/bol/mean_profile}%
 		\end{minipage}%
 		
-		\caption{Perfil de temperatura potencial virtual en Bolund.}
+		\caption{Perfil de temperatura potencial virtual en Bolund ($\delta\approx 300$ [m]).}
 		\label{fig:06_bol_pbl}
 	\end{figure}
 \end{frame}
@@ -1117,7 +1448,7 @@ Ecuaciones Primitivas:
 			\includegraphics[width=0.75\linewidth,trim={0cm 5mm 0cm 0cm},clip]{fig/06/bol_da/mean_profile}%
 		\end{minipage}%
 		
-		\caption{Perfil de temperatura potencial virtual en Bolund con DA.}
+		\caption{Perfil de temperatura potencial virtual en Bolund con DA ($\delta\approx 300$ [m]).}
 		\label{fig:06_bol_da_pbl}
 	\end{figure}
 \end{frame}
@@ -1376,16 +1707,16 @@ Ecuaciones Primitivas:
 \end{frame}
 
 \begin{frame}{Resultados}{Caso II: Bolund - Síntesis}
-	\begin{minipage}{0.5\linewidth}
+	%\begin{minipage}{0.5\linewidth}
 		Observaciones relevantes:
 		\begin{itemize}
-			\item aaa
-			\item bbb
-			\item ccc
-			\item ddd
+			\item Se rescata el comportamiento cualitativo del viento mostrándose concordancia entre lo simulado y la comparación ciega ($\Delta S$ y $\Delta k$).
+			\item La simulación exhibe turbulencia resuelta en las series de tiempo.
+			\item Existen diferencias comparables entre lo medido y lo simulado.
+			\item La asimilación de datos empeoró los resultados en un $-60\%$.
 		\end{itemize}
-	\end{minipage}%
-	\begin{minipage}{0.5\linewidth}
+	%\end{minipage}%
+	%\begin{minipage}{0.5\linewidth}
 		\begin{table}[h!]
 			\caption{Comparación de métricas para el caso II Bolund.}
 			\label{tab:06_bol_mae_rmse}
@@ -1401,7 +1732,7 @@ Ecuaciones Primitivas:
 				\bottomrule
 			\end{tabular}
 		\end{table}
-	\end{minipage}%
+	%\end{minipage}%
 \end{frame}
 
 
@@ -1418,8 +1749,30 @@ Ecuaciones Primitivas:
 
 \section{8. Conclusiones}
 \begin{frame}{Conclusiones}
+	\begin{itemize}
+		\item La asimilación de datos 4D multipunto en la CLP en un modelo a alta resolución y con LES no demostró una ventaja comparativa.
+		\item La influencia de la asimilación de datos no logra permear a través de la integración numérica. Sin embargo si permite alterar la simulación obteniendo mejoras para el caso I.
+		\item La presencia de mediciones a distancias mas altas presenta ventajas con respecto a tener varios puntos para estos casos.
+		\item La utilización del LES y el acople de las escalas fue exitoso.
+		\item Las BBDD de alta resolución son imprescindibles para el desarrollo de esta metodología.
+		\item Los resultados obtenidos presentan concordancia con los casos de validación presentes en la literatura.
+	\end{itemize}
 \end{frame}
 
+\begin{frame}{Conclusiones}{Trabajo Futuro}
+	\begin{itemize}
+		\item Extrapolar mediciones superficiales según ley logaritmica y asimilar a mayor altura.
+		\item Eliminar puntos de malla que no aportan al modelo, bajar el $p_{top}=30000$ [Pa] y/o utilizar anidamiento vertical.
+		\item Analizar la asimilación multipunto en otras campañas de medición y con otros esquemas de asimilación (filtro de Kalman).
+		\item Asimilar gran cantidad de datos al modelo en la microescala.
+		\item Programar un algorítmo cíclico que permita la continuidad del TKE.
+		\item Sensibilizar los resultados con otras parametrizaciones físicas, especialmente de capa superficial y CLP.
+		\item Probar esquemas de orden superior para la clausura LES.
+		\item Usar paso de tiempo adaptativo.
+		\item Desarrollar campañas en terreno para tener mas y mejores bbdd estáticas.
+		\item Utilizar sistemas coordenados vanguardistas. WRF 3.9 ya implementó coordenadas híbridas.
+	\end{itemize}
+\end{frame}
 
 \begin{frame}{Agradecimientos}
 	\vspace{-0.5cm}
@@ -1435,7 +1788,199 @@ Ecuaciones Primitivas:
 	\vspace{0.7cm}
 	\centering
 	\includegraphics[width=0.7\linewidth]{fig/agrad/conicyt}%
+\end{frame}
+
+\begin{frame}
+	\vspace{0.3cm}
+	\begin{center} \includegraphics[height=1.5cm]{utfsm_logo} \end{center}
+	\vspace{-0.5cm}
+	\titlepage
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.85\linewidth,trim={2.7cm 14.3cm 2.0cm 2cm},clip]{fig/an1/bolund1.pdf}%
+	\caption{Perfil del viento no perturbado en el punto referencial M0 (ver Figura \ref{fig:05_terreno_bolund}). En línea negra está el perfil entregado por los desarrolladores (para utilizar como condición de borde) y el resto corresponde a distintos modelos. La línea sólida roja corresponde a simulaciones LES.}
+	\label{fig:an1_m0}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Cálculo de Variaciones Bolund}
+	\begin{equation}
+	\Delta S_s = \frac{\overline{s} - \overline{s_0}}{\overline{s_0}}
+	\end{equation}
 	
+	\bigskip
+	
+	\begin{equation}
+	\Delta k_s = \frac{\overline{k}}{\overline{s_0^2}} - \frac{\overline{k_0}}{\overline{s_0^2}}
+	\end{equation}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth,trim={1.7cm 12.3cm 0.9cm 2cm},clip]{fig/an1/bolund2.pdf}%
+		\caption{Speedup medido y simulado a través de la sección transversal a $240^\circ$. Arriba: valores para $z=5$ [m]. Abajo: valores para $z=2$ [m].}
+		\label{fig:an1_speedup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\linewidth,trim={2.7cm 14.4cm 1.9cm 2cm},clip]{fig/an1/bolund3.pdf}%	
+		\caption{Perfil de speedup medido y simulado en M1-M2.}
+		\label{fig:an1_speed_masts}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\linewidth,trim={2.7cm 6.0cm 1.9cm 10.3cm},clip]{fig/an1/bolund3.pdf}%
+		\caption{Perfil de speedup medido y simulado en M3-M4.}
+		\label{fig:an1_speed_masts2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth,trim={1.7cm 12.3cm 0.8cm 2cm},clip]{fig/an1/bolund4.pdf}%
+		\caption{$\Delta k$ medido y simulado a través de la sección transversal a $240^\circ$. Arriba: valores para $z=5$ [m]. Abajo: valores para $z=2$ [m].}
+		\label{fig:an1_delta_tke}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth,trim={2.7cm 3.8cm 1.9cm 12.5cm},clip]{fig/an1/bolund4.pdf}%
+		\caption{Perfil de $\Delta k$ medido y simulado en M1-M2.}
+		\label{fig:an1_delta_tke_mast}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering	
+		\includegraphics[width=1\linewidth,trim={2.7cm 14.3cm 1.9cm 2cm},clip]{fig/an1/bolund5.pdf}%
+		\caption{Perfil de $\Delta k$ medido y simulado en M3-M4.}
+		\label{fig:an1_delta_tke_mast2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.25\linewidth,page=1,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=2,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=3,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=4,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		
+		\bigskip
+		\includegraphics[width=0.25\linewidth,page=5,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=6,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=7,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=8,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		
+		\bigskip
+		\includegraphics[width=0.25\linewidth,page=9,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=10,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=11,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=12,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		
+		%\caption{Orografía (MSNM) y uso de suelo (categoría USGS24) de alta resolución para cada uno de las mallas anidadas (d01-d07) en Høvsøre.}
+		\label{fig:dominios_hov}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		
+		\includegraphics[width=0.25\linewidth,page=13,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=14,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/hov_domain.pdf}%
+		
+		\caption{Orografía (MSNM) y uso de suelo (categoría USGS24) de alta resolución para cada uno de las mallas anidadas (d01-d07) en Høvsøre.}
+		\label{fig:dominios_hov2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.25\linewidth,page=1,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=2,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=3,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=4,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		
+		\bigskip
+		\includegraphics[width=0.25\linewidth,page=5,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=6,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=7,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=8,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		
+		\bigskip
+		\includegraphics[width=0.25\linewidth,page=9,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=10,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=11,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=12,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		
+		%\caption{Orografía (MSNM) y uso de suelo (categoría USGS24) de alta resolución para cada uno de las mallas anidadas (d01-d08) en Bolund.}
+		\label{fig:dominios_bol}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.25\linewidth,page=13,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=14,trim={2cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		
+		\bigskip
+		\includegraphics[width=0.25\linewidth,page=15,trim={0cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		\includegraphics[width=0.25\linewidth,page=16,trim={0cm 6.5cm 1cm 3.5cm},clip]{fig/05/bol_domain.pdf}%
+		
+		\caption{Orografía (MSNM) y uso de suelo (categoría USGS24) de alta resolución para cada uno de las mallas anidadas (d01-d08) en Bolund.}
+		\label{fig:dominios_bol2}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{table}[H]
+		\caption{Específicaciones técnicas de los recursos computacionales utilizados.}\label{tab:an3_s12}
+		\centering\resizebox{\textwidth}{!}{
+			\begin{tabular}{lcc}
+				\toprule
+				Servidor 				& S1	&	S2	\\
+				\midrule
+				CPU			 			& Intel Xeon CPU E5-2609 v2@2.50Ghz & Intel Xeon Silver 4110 CPU @ 2.10GHz  \\
+				\# Cores				& 8 & 32  \\
+				Arquitectura            & x86\_64  & x86\_64  \\
+				RAM			 			& 55Gb & 126Gb  \\
+				HDD			 			& 1Tb & 2Tb  \\
+				OS			 			& Scientific Linux 7.2 & Debian 9  \\
+				\bottomrule
+			\end{tabular}}
+	\end{table}
+		
+	\begin{table}[H]
+		\caption{Tiempos de cálculo para cada experimento.}\label{tab:an3_tiempos}
+		\centering\resizebox{\textwidth}{!}{
+			\begin{tabular}{lccccc}
+				\toprule
+				Caso 				& Fecha Inicio	&	Fecha Término & $T_w$ [h] &	$\Delta t$ [h] & Incremento	\\
+				\midrule
+				Høvsøre s/DA		& 25/02/2019 17:30 & 04/03/2019 01:28 & 151,97 & -- & --  \\
+				Høvsore c/ DA		& 13/03/2019 23:13 & 19/03/2019 00:49 & 121,60 & -30,37 & -19.98\% \\
+				Bolund s/DA			& 12/02/2019 22:22 & 20/03/2019 08:35 & 850,22 & -- & -- \\
+				Bolund c/ DA		& 25/04/2019 22:58 & 24/05/2019 09:44\footnotemark & 662,02 & -188,20 & -22,14\% \\
+				\bottomrule
+			\end{tabular}}
+	\end{table}
 \end{frame}
 
 \begin{frame}
